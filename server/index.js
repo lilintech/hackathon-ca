@@ -1,5 +1,5 @@
 // imports
-const { create, login } = require("./routes/login");
+const { create, login, changePass } = require("./routes/login");
 const connection = require("./db")
 
 // middlewares
@@ -30,6 +30,8 @@ connection.connect((err) => {
   }
 });
 
+// ! account stuff
 // login and create account
 app.use(create);
-app.use(login)
+app.use(login);
+app.use(changePass); //change passeord

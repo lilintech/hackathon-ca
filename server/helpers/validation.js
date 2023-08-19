@@ -1,10 +1,5 @@
 const {body, validationResult} = require("express-validator");
 
-// custom validation for comparing 2 values
-const matchPass = (value, {req}) =>{
-    return value === req.body.newPass;
-}
-
 
 // define rules for validation
 const validationRules = () => {
@@ -15,8 +10,7 @@ const validationRules = () => {
     body('password').isLength({ min: 8 }).withMessage("Password should be 8 characters or longer"),
     // check username
     body('username').isLength({min: 3}).withMessage("username should be 3 or more characters"),
-    // check same new pass and confirm pass
-    body('confirmPass').custom(matchPass)
+    
   ];
 };
 
@@ -37,5 +31,5 @@ const validate = (req, res, success) => {
   });
 
 };
-module.exports = { validate, validationRules };
+module.exports = { validate, validationRules};
 
