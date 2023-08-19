@@ -1,5 +1,6 @@
 // imports
 const { create, login, changePass } = require("./routes/login");
+const { forgotPass} = require('./routes/forgotPass');
 const connection = require("./db")
 
 // middlewares
@@ -35,3 +36,4 @@ connection.connect((err) => {
 app.use(create);
 app.use(login);
 app.use(changePass); //change passeord
+app.use(forgotPass);  //forgot password
