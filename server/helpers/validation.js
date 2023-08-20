@@ -1,7 +1,39 @@
 const {body, validationResult} = require("express-validator");
 
 
-// define rules for validation
+
+// ! validation for report crime
+const reportValidationRules = () =>{
+  return [
+    // check email address
+    body('email_address').isEmail().withMessage("Email is not valid"),
+    // check phone number
+    body('phone_number').isMobilePhone().withMessage("Not valid phone number"),
+    body('gender').custom( value => {
+      if(value !== 'male'&& value !== 'female' ){
+        throw new Error("Invalid gendder value")
+      }
+      return true;
+    }).notEmpty().withMessage("gender cannot be empty")
+  ]
+}
+
+const validateReport = (req, res, success) =>{
+  const errors = validationResult(req);
+  if(errors.isEmpty()){
+    return success();
+  }
+  const extractedErrors = errors.array().map((err) => {
+    return { param: err.param, msg: err.msg };
+  }); 
+ 
+  return res.status(422).json({
+    errors: extractedErrors,
+  });
+};
+
+
+// ! validation rules for signup
 const validationRules = () => {
   return [
     // check email
@@ -31,5 +63,5 @@ const validate = (req, res, success) => {
   });
 
 };
-module.exports = { validate, validationRules};
+module.exports = { validate, validationRules, reportValidationRules, validateReport};
 

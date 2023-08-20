@@ -1,4 +1,8 @@
 -- users, reported_crimes, quiz_categories, quiz_questions, quiz_options, userquizScores
+CREATE TABLE CrimesTypes(
+    crime_id int primary key auto_increment,
+    crime_type varchar(255)
+);
 CREATE TABLE QuizCategories (
     category_id int auto_increment primary key,
     category_name varchar(255) not null
@@ -11,13 +15,19 @@ CREATE TABLE Users (
     profile_pic VARCHAR(255)
 );
 
+
+
 CREATE TABLE ReportedCrimes (
-    crime_id bigint primary key auto_increment,
-    user_id bigint,
-    crime_type varchar(255) NOT NULL,
+    report_id bigint primary key auto_increment,
+    email_address varchar(255),
+    phone_number varchar(20),
+    gender varchar(10),
+    first_name varchar(255),
+    last_name varchar(255),
+    date_reported date default curdate(),
     crime_description TEXT,
-    date_reported date,
-    foreign key (user_id) references Users(user_id)
+    crime_id int,
+    foreign key (crime_id) references CrimesTypes(crime_id)
 );
 
 

@@ -2,6 +2,11 @@ const express = require('express');
 const connection = require("../db");
 
 
+// logic
+// 1. does user exist
+// 2. send reset link token to email if exists
+// 3. check if token is valid
+// 4. if valid reset password and update db
 
 // forgot password
 const forgotPass = express.Router();

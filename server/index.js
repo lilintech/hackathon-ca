@@ -1,6 +1,7 @@
 // imports
 const { create, login, changePass } = require("./routes/login");
 const { forgotPass} = require('./routes/forgotPass');
+const { reportNew, crimeCategories } = require('./routes/reportCrime')
 const connection = require("./db")
 
 // middlewares
@@ -37,3 +38,7 @@ app.use(create);
 app.use(login);
 app.use(changePass); //change passeord
 app.use(forgotPass);  //forgot password
+
+// ! report and add crime
+app.use(reportNew)
+app.use(crimeCategories)
