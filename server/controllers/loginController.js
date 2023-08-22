@@ -1,5 +1,8 @@
 const connection = require("../db");
 const bcrypt = require("bcrypt");
+const dotenv = require('dotenv');
+const jwt = require('jsonwebtoken')
+dotenv.config();
 
 const handleUserLogin = async (req, res) => {
   const { emailOrUsername, password } = req.body;
@@ -16,9 +19,10 @@ const handleUserLogin = async (req, res) => {
         if (results.length === 0) {
           return res.json("Invalid login details").status(400);
         }
-        console.log(results);
+        // console.log(results);
         // assign var user to results from db request
         const user = results[0];
+      
         // compare passwords
         const passwordCheck = await bcrypt.compare(
           password,
@@ -28,7 +32,24 @@ const handleUserLogin = async (req, res) => {
           return res.json({ message: "Inavlid login details" }).status(400);
         }
 
-        return res.json({ message: "login successful" }).status(200);
+        // create jwts
+        const accessToken = jwt.sign(
+          {"email" : user.email},
+          process.env.ACCESS_TOKEN_SECRET,
+          {expiresIn: '50s'}
+
+        );
+
+        const refreshToken = jwt.sign(
+          {"email": user.email_address},
+          process.env.REFRESH_TOKEN_SECRET,
+          {expiresIn: '1d'}
+        );
+
+
+
+
+        return res.json({ accessToken, message: "login successful" }).status(200);
       }
     );
   } catch (error) {

@@ -13,6 +13,7 @@ const { changePass } = require('./routes/changePass');
 const { forgotPass } = require('./routes/forgot');
 const { reportIncident } = require('./routes/reportIncident');
 const { addCrimeCategory } = require('./routes/addCrimeCategory');
+const { jwtVerification } = require('./middleware/jwtVerification');
 const app = express();
 
 // middlewares
@@ -45,6 +46,8 @@ app.use(login);
 app.use(changePass); //change passeord
 app.use(forgotPass);  //forgot password
 
+// below routes that need authorization
+app.use(jwtVerification)
 // ! report and add crime
 app.use(reportIncident)
 app.use(addCrimeCategory)
