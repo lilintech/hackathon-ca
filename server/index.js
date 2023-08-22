@@ -1,17 +1,21 @@
 // imports
-const { create, login, changePass } = require("./routes/login");
-const { forgotPass} = require('./routes/forgotPass');
-const { reportNew, crimeCategories } = require('./routes/reportCrime')
+const {create} = require('./routes/register')
 const connection = require("./db")
 
-// middlewares
+
 const cors = require("cors");
 const bodyparser = require("body-parser");
 
 // app configuration
 const express = require("express");
+const { login } = require('./routes/logIn');
+const { changePass } = require('./routes/changePass');
+const { forgotPass } = require('./routes/forgot');
+const { reportIncident } = require('./routes/reportIncident');
+const { addCrimeCategory } = require('./routes/addCrimeCategory');
 const app = express();
 
+// middlewares
 app.use(cors());
 app.use(bodyparser.json());
 app.use(bodyparser.urlencoded({ extended: true }));
@@ -32,6 +36,8 @@ connection.connect((err) => {
   }
 });
 
+// routes
+
 // ! account stuff
 // login and create account
 app.use(create);
@@ -40,5 +46,5 @@ app.use(changePass); //change passeord
 app.use(forgotPass);  //forgot password
 
 // ! report and add crime
-app.use(reportNew)
-app.use(crimeCategories)
+app.use(reportIncident)
+app.use(addCrimeCategory)
