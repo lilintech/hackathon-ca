@@ -1,7 +1,7 @@
 const connection = require("../db");
 const bcrypt = require("bcrypt");
-const dotenv = require('dotenv');
-const jwt = require('jsonwebtoken')
+const dotenv = require("dotenv");
+const jwt = require("jsonwebtoken");
 dotenv.config();
 
 const handleUserLogin = async (req, res) => {
@@ -22,7 +22,7 @@ const handleUserLogin = async (req, res) => {
         // console.log(results);
         // assign var user to results from db request
         const user = results[0];
-      
+
         // compare passwords
         const passwordCheck = await bcrypt.compare(
           password,
@@ -34,22 +34,28 @@ const handleUserLogin = async (req, res) => {
 
         // create jwts
         const accessToken = jwt.sign(
-          {"email" : user.email},
+          { email: user.email },
           process.env.ACCESS_TOKEN_SECRET,
-          {expiresIn: '50s'}
-
+          { expiresIn: "50s" }
         );
 
         const refreshToken = jwt.sign(
-          {"email": user.email_address},
+          { email: user.email_address },
           process.env.REFRESH_TOKEN_SECRET,
-          {expiresIn: '1d'}
+          { expiresIn: "3d" }
         );
 
+        // store refresh token in cookie
+        res.cookie("jwt", refreshToken, {
+          httpOnly: true, //prevemts xss
+          sameSite: "None", //if hosted on different domain
+          secure: "true", //use https only
+          maxAge: 3 * 24 * 60 * 60 * 1000, 
+        });
 
-
-
-        return res.json({ accessToken, message: "login successful" }).status(200);
+        return res
+          .json({ accessToken, message: "login sucessful" })
+          .status(200);
       }
     );
   } catch (error) {

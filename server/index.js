@@ -14,6 +14,7 @@ const { forgotPass } = require('./routes/forgot');
 const { reportIncident } = require('./routes/reportIncident');
 const { addCrimeCategory } = require('./routes/addCrimeCategory');
 const { jwtVerification } = require('./middleware/jwtVerification');
+const { getCrimes } = require('./routes/getCrimes');
 const app = express();
 
 // middlewares
@@ -47,7 +48,8 @@ app.use(changePass); //change passeord
 app.use(forgotPass);  //forgot password
 
 // below routes that need authorization
-app.use(jwtVerification)
+// app.use(jwtVerification)
 // ! report and add crime
 app.use(reportIncident)
 app.use(addCrimeCategory)
+app.use(getCrimes); //get all reported crimes

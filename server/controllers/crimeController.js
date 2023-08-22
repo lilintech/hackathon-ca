@@ -63,4 +63,24 @@ const reportIncidentHandler = async (req, res) => {
   }
 };
 
-module.exports = { addNewCrimeCategoryHandler, reportIncidentHandler };
+// ! get all reported crimes
+const getAllCrimesHandler = async (req, res) => {
+  connection.query(
+    "SELECT email_address, phone_number, gender, first_name, last_name, date_reported, crime_description FROM ReportedCrimes",
+    [],
+    (err, results, fields) => {
+      if (err) {
+        return res
+          .json({ message: "failed to get reported crimes" })
+          .sendStatus(501);
+      }
+      return res.json(results);
+    }
+  );
+};
+
+module.exports = {
+  addNewCrimeCategoryHandler,
+  reportIncidentHandler,
+  getAllCrimesHandler,
+};
