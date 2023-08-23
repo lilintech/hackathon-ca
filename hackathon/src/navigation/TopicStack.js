@@ -1,7 +1,7 @@
 import * as React from "react";
 import { createStackNavigator } from "@react-navigation/stack";
 
-import Topics from "../screens/Topics"
+import Topics from "../components/screens/Topics"
 const Stack = createStackNavigator();
 
 // news navigator

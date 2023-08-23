@@ -3,8 +3,8 @@ import { createDrawerNavigator } from "@react-navigation/drawer";
 
 // stacks
 import TopicStack from "./TopicStack";
-import Report from "../screens/Report";
-import News from "../screens/News";
+import Report from "../components/screens/Report";
+import News from "../components/screens/News";
 
 // create the drawer
 const Drawer = createDrawerNavigator();
