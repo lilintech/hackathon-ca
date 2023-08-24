@@ -45,17 +45,19 @@ const handleUserLogin = async (req, res) => {
           { expiresIn: "3d" }
         );
 
-        // store refresh token in cookie
-        res.cookie("jwt", refreshToken, {
-          httpOnly: true, //prevemts xss
-          sameSite: "None", //if hosted on different domain
-          secure: "true", //use https only
-          maxAge: 3 * 24 * 60 * 60 * 1000,
-        });
+        // // store refresh token in cookie
+        // res.cookie("jwt", refreshToken, {
+        //   httpOnly: true, //prevemts xss
+        //   sameSite: "None", //if hosted on different domain
+        //   secure: "true", //use https only
+        //   maxAge: 3 * 24 * 60 * 60 * 1000,
+        // });
+
+        // send both tokens to mobile
 
         return res
           .status(200)
-          .json({ accessToken, message: "login sucessful" });
+          .json({ accessToken, refreshToken, message: "login sucessful" });
       }
     );
   } catch (error) {
