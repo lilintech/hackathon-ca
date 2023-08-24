@@ -2,7 +2,7 @@ import React from "react";
 import { StyleSheet } from "react-native";
 const Styles = StyleSheet.create({
   container: {
-    width: '100vw',
+    width: "100vw",
     flex: 1,
     padding: 20,
   },
@@ -13,18 +13,30 @@ const Styles = StyleSheet.create({
     fontSize: 18,
     borderRadius: 6,
     marginTop: 20,
-    width: '100%',
+    width: "100%",
   },
-  link:{
+  link: {
     width: "100%",
     marginTop: 40,
   },
-  linkText:{
+  linkText: {
     textAlign: "center",
     padding: 10,
     fontSize: 20,
-    textDecorationLine: "underline"
-  }
+    textDecorationLine: "underline",
+  },
+  errorData: {
+    color: "red",
+    fontSize: 16,
+    marginTop: 5,
+  },
+  heading: {
+    fontSize: 40,
+    textAlign: "center",
+    marginTop: 20,
+
+    fontWeight: "bold",
+  },
 });
 
 export default Styles;

@@ -2,9 +2,9 @@ import * as yup from "yup";
 
 // yup form validation
 export const loginSchema = yup.object({
-  email: yup
+  emailOrUsername: yup
     .string()
-    .required("Email is required")
+    .required("Email or Username is required")
     .email("Invalid email address"),
   password: yup
     .string()

@@ -15,7 +15,15 @@ const handleNewUser = async (req, res) => {
       // callback takes 3 args
       (err, results, fields) => {
         if (err) {
-          return res.status(400).json("Error writing to database" + err);
+          if (err.code === "ER_DUP_ENTRY") {
+            if (err.sqlMessage.includes(email)) {
+              return res.status(409).json(" An account with this email already exists");
+            } else if (err.sqlMessage.includes(username)) {
+              return res.status(409).json("Pick a different username");
+            } else {
+              console.log("Error Occurred");
+            }
+          }
         }
 
         return res.status(201).json({ message: "User added successfully" });
@@ -27,4 +35,4 @@ const handleNewUser = async (req, res) => {
   }
 };
 
-module.exports = {handleNewUser}
+module.exports = { handleNewUser };

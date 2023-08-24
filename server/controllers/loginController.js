@@ -17,7 +17,7 @@ const handleUserLogin = async (req, res) => {
         }
         // if nothing returns
         if (results.length === 0) {
-          return res.json("Invalid login details").status(400);
+          return res.status(400).json("Invalid login details");
         }
         // console.log(results);
         // assign var user to results from db request
@@ -29,7 +29,7 @@ const handleUserLogin = async (req, res) => {
           user.password_hash
         );
         if (!passwordCheck) {
-          return res.json({ message: "Inavlid login details" }).status(400);
+          return res.status(400).json({ message: "Inavlid login details" });
         }
 
         // create jwts
@@ -50,17 +50,17 @@ const handleUserLogin = async (req, res) => {
           httpOnly: true, //prevemts xss
           sameSite: "None", //if hosted on different domain
           secure: "true", //use https only
-          maxAge: 3 * 24 * 60 * 60 * 1000, 
+          maxAge: 3 * 24 * 60 * 60 * 1000,
         });
 
         return res
-          .json({ accessToken, message: "login sucessful" })
-          .status(200);
+          .status(200)
+          .json({ accessToken, message: "login sucessful" });
       }
     );
   } catch (error) {
     console.log(error);
-    res.json({ message: "Internal Error" }).status(500);
+    res.status(500).json({ message: "Internal Error" });
   }
 };
 

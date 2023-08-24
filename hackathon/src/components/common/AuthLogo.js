@@ -1,6 +1,9 @@
 import { Image, ImageBackground, StyleSheet, Text, View } from "react-native";
 import React from "react";
 import logo from "../../../assets/logo.jpg";
+
+// ! contains the app name and logo of the app in authStacks
+
 const AuthLogo = ({ message }) => {
   return (
     <View style={styles.logo}>
