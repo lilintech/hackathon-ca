@@ -1,11 +1,17 @@
 import * as React from "react";
 import { NavigationContainer } from "@react-navigation/native";
-import Navigator from "./src/routes/RootDrawerNavigator";
+import Navigator from "./src/navigation/RootDrawerNavigator";
+import AuthStackNavigator from "./src/navigation/AuthStack";
 
 export default function App() {
-  return (
+  // check if user is authenticated
+
+
+return (
     <NavigationContainer>
-      <Navigator />
+      <AuthStackNavigator/>
+    {/* {isAuthenticated ?  <Navigator /> : <AuthStackNavigator/> } */}
+     
     </NavigationContainer>
   );
 }
