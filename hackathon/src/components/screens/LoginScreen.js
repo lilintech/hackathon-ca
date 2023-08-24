@@ -12,6 +12,11 @@ import { post } from "../../services/api";
 const LoginScreen = () => {
   const [errorData, setErrorData] = useState("");
 
+ 
+  const navigation = useNavigation();
+
+ 
+
   // handle form submit
   const handleSubmit = async (values) => {
     const data = {
@@ -27,6 +32,8 @@ const LoginScreen = () => {
       if (response.status === 200) {
         console.log(response.data);
         setErrorData(null)
+        navigation.navigate("Topics")
+        
       }
     } catch (error) {
       if (error.response) {
@@ -46,15 +53,15 @@ const LoginScreen = () => {
     }
   };
 
-  //
-
-  // handle page change
-  const navigation = useNavigation();
-
+ // handle page change
   const handlePress = () => {
     navigation.navigate("CreateAccount"); //pass name of screen
   };
 
+
+  //
+
+  
   return (
     <ImageBackground style={Styles.container} source={background}>
       <View>

@@ -6,6 +6,7 @@ import AuthStackNavigator from "./src/navigation/AuthStack";
 export default function App() {
   // check if user is authenticated
 
+  // const [isAuthenticated, setIsAuthenticated] = React.useState(false)
 
 return (
     <NavigationContainer>
