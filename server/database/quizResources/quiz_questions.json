@@ -1,0 +1,1714 @@
+[
+  {
+    "topic": "Encryption",
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "What is encryption?",
+        "options": [
+          "A. Converting data to sound waves",
+          "B. Making data invisible",
+          "C. Converting data into code",
+          "D. Organizing data into categories"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "topic": "Encryption",
+        "difficulty": "easy",
+        "question": "What is a key in encryption?",
+        "options": [
+          "A. A metal object used to lock data",
+          "B. A mathematical value used to encrypt and decrypt data",
+          "C. A type of encryption software",
+          "D. An algorithm used to compress data"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "topic": "Encryption",
+        "difficulty": "easy",
+        "question": "Which encryption method uses a single key for both encryption and decryption?",
+        "options": [
+          "A. Symmetric encryption",
+          "B. Asymmetric encryption",
+          "C. Hybrid encryption",
+          "D. Transitive encryption"
+        ],
+        "correct_answer": 0
+      },
+      {
+        "topic": "Encryption",
+        "difficulty": "easy",
+        "question": "What is the purpose of encryption?",
+        "options": [
+          "A. To create strong passwords",
+          "B. To prevent unauthorized access to data",
+          "C. To organize data in databases",
+          "D. To optimize computer performance"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "topic": "Encryption",
+        "difficulty": "easy",
+        "question": "What is the process of converting plaintext into ciphertext called?",
+        "options": [
+          "A. Encoding",
+          "B. Decoding",
+          "C. Encryption",
+          "D. Decryption"
+        ],
+        "correct_answer": 2
+      },
+
+      {
+        "topic": "Encryption",
+        "difficulty": "intermediate",
+        "question": "What is a substitution cipher in encryption?",
+        "options": [
+          "A. A cipher that shifts letters by a fixed number of positions",
+          "B. A cipher that replaces each letter with a different letter",
+          "C. A cipher that uses a matrix to transform letters",
+          "D. A cipher that encodes numbers instead of letters"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "topic": "Encryption",
+        "difficulty": "intermediate",
+        "question": "What is a key length in encryption?",
+        "options": [
+          "A. The number of characters in a password",
+          "B. The length of the encrypted message",
+          "C. The size of the encryption key in bits",
+          "D. The time it takes to encrypt a message"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "topic": "Encryption",
+        "difficulty": "intermediate",
+        "question": "Which encryption algorithm is commonly used for secure online communication?",
+        "options": [
+          "A. Caesar cipher",
+          "B. RSA algorithm",
+          "C. MD5 hashing",
+          "D. Base64 encoding"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "topic": "Encryption",
+        "difficulty": "intermediate",
+        "question": "What is a cryptographic salt used for?",
+        "options": [
+          "A. To add flavor to encrypted data",
+          "B. To increase the speed of encryption",
+          "C. To make encrypted data more secure",
+          "D. To decrypt data"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "topic": "Encryption",
+        "difficulty": "intermediate",
+        "question": "What is a digital signature in encryption?",
+        "options": [
+          "A. A physical signature on a printed document",
+          "B. A mathematical technique to verify the authenticity of a message",
+          "C. A type of encryption key",
+          "D. A method to hide data in plain sight"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "topic": "Encryption",
+        "difficulty": "advanced",
+        "question": "What is the difference between symmetric and asymmetric encryption?",
+        "options": [
+          "A. Symmetric encryption uses keys for secure communication, while asymmetric encryption uses algorithms.",
+          "B. Symmetric encryption requires two keys for encryption and decryption, while asymmetric encryption uses a single key.",
+          "C. Symmetric encryption uses a single key for both encryption and decryption, while asymmetric encryption uses different keys.",
+          "D. Symmetric encryption uses algorithms to generate keys, while asymmetric encryption uses keys for message encoding."
+        ],
+        "correct_answer": 2
+      },
+      {
+        "topic": "Encryption",
+        "difficulty": "advanced",
+        "question": "What is the significance of the P versus NP problem in encryption?",
+        "options": [
+          "A. It determines the complexity of symmetric encryption algorithms.",
+          "B. It establishes the mathematical basis for asymmetric encryption.",
+          "C. It explores the possibility of efficient decryption of encrypted data.",
+          "D. It addresses the challenge of efficiently solving certain encryption-related problems."
+        ],
+        "correct_answer": 3
+      },
+      {
+        "topic": "Encryption",
+        "difficulty": "advanced",
+        "question": "What is a side-channel attack in encryption?",
+        "options": [
+          "A. An attack that targets the physical hardware of a computer.",
+          "B. An attack that exploits vulnerabilities in encryption algorithms.",
+          "C. An attack that targets the communication channel between sender and receiver.",
+          "D. An attack that uses information leaked during the encryption process."
+        ],
+        "correct_answer": 3
+      },
+      {
+        "topic": "Encryption",
+        "difficulty": "advanced",
+        "question": "What is quantum cryptography?",
+        "options": [
+          "A. A cryptographic technique used to secure quantum computers.",
+          "B. A type of encryption that uses quantum mechanics principles.",
+          "C. A method to speed up the encryption process using quantum algorithms.",
+          "D. A technique to prevent side-channel attacks in encrypted communications."
+        ],
+        "correct_answer": 1
+      },
+      {
+        "topic": "Encryption",
+        "difficulty": "advanced",
+        "question": "What is the concept of perfect forward secrecy (PFS) in encryption?",
+        "options": [
+          "A. It ensures that encrypted data can be decrypted only by authorized parties.",
+          "B. It guarantees that encryption keys can be regenerated if compromised.",
+          "C. It prevents the same encryption key from being used for multiple sessions.",
+          "D. It ensures that past encrypted communications remain secure even if current keys are compromised."
+        ],
+        "correct_answer": 3
+      }
+    ]
+  },
+  {
+    "topic": "Malware",
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "What does the term 'malware' stand for?",
+        "options": [
+          "A. Malicious software",
+          "B. Mobile applications",
+          "C. Mega antivirus remover",
+          "D. Microsoft and Linux reliability engine"
+        ],
+        "correct_answer": 0
+      },
+      {
+        "difficulty": "easy",
+        "question": "Which of the following is NOT a type of malware?",
+        "options": ["A. Virus", "B. Trojan horse", "C. Firewall", "D. Worm"],
+        "correct_answer": 2
+      },
+      {
+        "difficulty": "easy",
+        "question": "What is the main purpose of malware?",
+        "options": [
+          "A. To improve computer performance",
+          "B. To provide free software",
+          "C. To steal sensitive information or cause harm",
+          "D. To increase battery life"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "difficulty": "easy",
+        "question": "What is a keylogger?",
+        "options": [
+          "A. A type of computer virus",
+          "B. A hardware component",
+          "C. A program that records keystrokes",
+          "D. A form of online advertisement"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "difficulty": "easy",
+        "question": "How can you prevent malware infections?",
+        "options": [
+          "A. Download files from unknown sources",
+          "B. Click on suspicious links",
+          "C. Keep your software up-to-date",
+          "D. Share your passwords with friends"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "difficulty": "intermediate",
+        "question": "What is a botnet?",
+        "options": [
+          "A. A collection of robotic toys",
+          "B. A group of interconnected devices controlled by a remote attacker",
+          "C. A specialized antivirus software",
+          "D. A type of computer worm"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "difficulty": "intermediate",
+        "question": "What is ransomware?",
+        "options": [
+          "A. Malware that encrypts files and demands payment for their release",
+          "B. A type of antivirus software",
+          "C. A program that helps speed up computer performance",
+          "D. A tool used to create backups"
+        ],
+        "correct_answer": 0
+      },
+      {
+        "difficulty": "intermediate",
+        "question": "What is a rootkit?",
+        "options": [
+          "A. A plant that grows in soil",
+          "B. A type of gardening tool",
+          "C. A type of malware that provides unauthorized access to a computer system",
+          "D. A form of cloud storage"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "difficulty": "intermediate",
+        "question": "What is the purpose of a distributed denial of service (DDoS) attack?",
+        "options": [
+          "A. To create a backup of important files",
+          "B. To speed up internet connections",
+          "C. To overload a target system with traffic, making it inaccessible",
+          "D. To improve network security"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "difficulty": "intermediate",
+        "question": "What is adware?",
+        "options": [
+          "A. A type of antivirus software",
+          "B. A program that provides advertisements",
+          "C. A form of online payment",
+          "D. A type of computer virus"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "difficulty": "advanced",
+        "question": "Explain the concept of a polymorphic virus.",
+        "options": [
+          "A. A virus that affects only one type of computer",
+          "B. A virus that can change its own code or appearance to avoid detection",
+          "C. A virus that targets multiple operating systems simultaneously",
+          "D. A virus that spreads via social media"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "difficulty": "advanced",
+        "question": "What is a zero-day exploit?",
+        "options": [
+          "A. An attack that occurs on the zeroth day of the year",
+          "B. An exploit that targets software vulnerabilities that have been known for years",
+          "C. An exploit that targets newly discovered vulnerabilities before a patch is available",
+          "D. An exploit that only affects zero-calorie software"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "difficulty": "advanced",
+        "question": "What is the purpose of a man-in-the-middle (MitM) attack?",
+        "options": [
+          "A. To target mobile devices only",
+          "B. To intercept communication between two parties without their knowledge",
+          "C. To distribute free software to users",
+          "D. To improve network performance"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "difficulty": "advanced",
+        "question": "What is a logic bomb in the context of malware?",
+        "options": [
+          "A. A type of computer virus that causes hardware damage",
+          "B. A device used to defuse other types of malware",
+          "C. A type of malware that targets computer peripherals",
+          "D. A program designed to execute a malicious action at a specific time or condition"
+        ],
+        "correct_answer": 3
+      },
+      {
+        "difficulty": "advanced",
+        "question": "Explain the term 'malvertising'.",
+        "options": [
+          "A. Advertising for malicious products",
+          "B. Advertising focused on malware removal tools",
+          "C. Malicious advertisements that spread malware",
+          "D. Advertising for antivirus software"
+        ],
+        "correct_answer": 2
+      }
+    ]
+  },
+  {
+    "topic": "Two-Factor Authentication (2FA)",
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "What is Two-Factor Authentication (2FA)?",
+        "options": [
+          "A. A method of using two different user accounts",
+          "B. A security measure that requires two separate passwords",
+          "C. A method that involves two verification steps to access an account",
+          "D. A way to reset passwords"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "difficulty": "easy",
+        "question": "Which of the following can be used as the first factor in 2FA?",
+        "options": [
+          "A. Something you know (e.g., password)",
+          "B. Something you are (e.g., fingerprint)",
+          "C. Something you have (e.g., phone)",
+          "D. All of the above"
+        ],
+        "correct_answer": 3
+      },
+      {
+        "difficulty": "easy",
+        "question": "What is a common second factor used in 2FA?",
+        "options": [
+          "A. PIN",
+          "B. Username",
+          "C. Date of birth",
+          "D. Security question"
+        ],
+        "correct_answer": 0
+      },
+      {
+        "difficulty": "easy",
+        "question": "Why is 2FA considered more secure than using only a password?",
+        "options": [
+          "A. 2FA requires a longer password",
+          "B. 2FA adds an extra layer of verification",
+          "C. 2FA eliminates the need for passwords",
+          "D. 2FA is easier to remember"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "difficulty": "easy",
+        "question": "What is a one-time password (OTP) in 2FA?",
+        "options": [
+          "A. A password that never expires",
+          "B. A password used only once and changes frequently",
+          "C. A password that is shared with multiple users",
+          "D. A password that is stored on the server"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "difficulty": "intermediate",
+        "question": "Explain the concept of 'time-based one-time password' (TOTP) in 2FA.",
+        "options": [
+          "A. A password that is valid only for a specific time period",
+          "B. A password that can be used for multiple accounts",
+          "C. A password that can only be used on Tuesdays",
+          "D. A password that is based on the current time and changes frequently"
+        ],
+        "correct_answer": 3
+      },
+      {
+        "difficulty": "intermediate",
+        "question": "Why is using a smartphone app for generating 2FA codes more secure than receiving codes via SMS?",
+        "options": [
+          "A. Smartphone apps provide faster codes",
+          "B. SMS codes are more prone to interception and SIM card attacks",
+          "C. Smartphone apps have a better user interface",
+          "D. SMS codes are not supported by most services"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "difficulty": "intermediate",
+        "question": "What is a recovery code in 2FA?",
+        "options": [
+          "A. A code used to recover a lost smartphone",
+          "B. A code provided by customer support",
+          "C. A backup code used to access an account in case the primary 2FA method is unavailable",
+          "D. A code that generates new passwords"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "difficulty": "intermediate",
+        "question": "What is U2F (Universal 2nd Factor) in the context of 2FA?",
+        "options": [
+          "A. A second type of password",
+          "B. A method that uses two smartphones for authentication",
+          "C. A hardware-based 2FA method that involves a physical key or token",
+          "D. A way to unlock an account using two different devices"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "difficulty": "intermediate",
+        "question": "What is the 'remember this device' feature in 2FA?",
+        "options": [
+          "A. A feature that remembers users' devices for a limited time",
+          "B. A feature that allows users to log in from any device",
+          "C. A feature that stores passwords on the device",
+          "D. A feature that remembers users' names on their devices"
+        ],
+        "correct_answer": 0
+      },
+      {
+        "difficulty": "advanced",
+        "question": "Explain the concept of 'multi-factor authentication' (MFA) and how it enhances security.",
+        "options": [
+          "A. A type of authentication that requires users to authenticate multiple times",
+          "B. A method that uses several different 2FA methods simultaneously",
+          "C. A security measure that combines two or more authentication factors for added security",
+          "D. A method that authenticates users using both hardware and software tokens"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "difficulty": "advanced",
+        "question": "What are the potential risks of using SMS as a second factor in 2FA?",
+        "options": [
+          "A. SMS codes are easily remembered",
+          "B. SMS codes are vulnerable to interception and SIM card attacks",
+          "C. SMS codes require a lot of storage space",
+          "D. SMS codes are expensive to use"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "difficulty": "advanced",
+        "question": "Explain the concept of 'biometric authentication' and provide examples of biometric factors.",
+        "options": [
+          "A. Biometric authentication involves using biological data as a second factor",
+          "B. Biometric authentication is a method that uses two different passwords",
+          "C. Biometric authentication uses fingerprints, facial recognition, and voice recognition as authentication factors",
+          "D. Biometric authentication is a type of encryption method"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "difficulty": "advanced",
+        "question": "What is 'adaptive authentication' and how does it enhance 2FA?",
+        "options": [
+          "A. A method that adapts authentication methods based on user behavior and risk factors",
+          "B. A method that uses complex algorithms to generate passwords",
+          "C. A way to authenticate users without their knowledge",
+          "D. A method that requires users to authenticate multiple times"
+        ],
+        "correct_answer": 0
+      },
+      {
+        "difficulty": "advanced",
+        "question": "Explain the concept of 'passwordless 2FA' and how it works.",
+        "options": [
+          "A. A method that uses a single password for authentication",
+          "B. A method that eliminates the need for any form of authentication",
+          "C. A method that uses a combination of passwords and biometric factors for authentication",
+          "D. A method that uses second factors other than passwords, such as hardware tokens or biometrics, to verify identity"
+        ],
+        "correct_answer": 3
+      }
+    ]
+  },
+  {
+    "topic": "Social Engineering",
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "What is social engineering?",
+        "options": [
+          "A. A type of online gaming",
+          "B. A technique to repair social relationships",
+          "C. A method to improve communication skills",
+          "D. A manipulation tactic to deceive individuals into revealing sensitive information"
+        ],
+        "correct_answer": 3
+      },
+      {
+        "difficulty": "easy",
+        "question": "What is the goal of a social engineer?",
+        "options": [
+          "A. To make new friends",
+          "B. To gather information for research purposes",
+          "C. To manipulate individuals into revealing information or taking actions",
+          "D. To improve networking skills"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "difficulty": "easy",
+        "question": "Which of the following is an example of social engineering?",
+        "options": [
+          "A. Installing a firewall",
+          "B. Physically tailing someone",
+          "C. Updating software",
+          "D. Sending a fake email to trick someone into revealing their password"
+        ],
+        "correct_answer": 3
+      },
+      {
+        "difficulty": "easy",
+        "question": "What is 'pretexting' in social engineering?",
+        "options": [
+          "A. Engaging in friendly conversations with strangers",
+          "B. Using pre-written scripts to communicate with others",
+          "C. Creating a fabricated scenario to manipulate someone into revealing information",
+          "D. Engaging in small talk with coworkers"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "difficulty": "easy",
+        "question": "What is 'tailgating' in social engineering?",
+        "options": [
+          "A. Hosting a party with coworkers",
+          "B. Following someone to their destination",
+          "C. Using another person's badge to gain unauthorized access to a building",
+          "D. Participating in team-building activities"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "difficulty": "intermediate",
+        "question": "What is 'phishing' and how does it work?",
+        "options": [
+          "A. Fishing for compliments on social media",
+          "B. A method to manipulate search engine results",
+          "C. A technique to steal personal information by posing as a legitimate entity",
+          "D. A form of online advertising"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "difficulty": "intermediate",
+        "question": "What is 'baiting' in the context of social engineering?",
+        "options": [
+          "A. Offering rewards to employees for their hard work",
+          "B. Leaving attractive physical objects to lure individuals into a trap",
+          "C. Organizing team-building activities",
+          "D. Promoting social events"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "difficulty": "intermediate",
+        "question": "Explain the concept of 'quid pro quo' in social engineering.",
+        "options": [
+          "A. A method to create mutually beneficial relationships",
+          "B. A Latin phrase used to greet strangers",
+          "C. Offering something in exchange for sensitive information",
+          "D. A technique to establish rapport with colleagues"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "difficulty": "intermediate",
+        "question": "What is 'preventing eavesdropping' in the context of social engineering?",
+        "options": [
+          "A. A method to listen to others' conversations without their knowledge",
+          "B. A technique to intercept emails",
+          "C. A way to protect sensitive conversations from being overheard",
+          "D. A technique to gather information from social media"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "difficulty": "intermediate",
+        "question": "What is 'quarantine' in the context of cybersecurity?",
+        "options": [
+          "A. A method to isolate infected individuals from a group",
+          "B. A technique to restrict access to certain websites",
+          "C. A process of placing potentially malicious files in a secure environment",
+          "D. A way to prevent unauthorized access to a network"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "difficulty": "advanced",
+        "question": "Explain the concept of 'vishing' and how it differs from 'phishing'.",
+        "options": [
+          "A. Vishing is a technique to manipulate social media algorithms",
+          "B. Vishing is a type of phishing attack that involves voice communication",
+          "C. Vishing is a method to verify user identities through video calls",
+          "D. Vishing is a way to authenticate users using virtual reality"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "difficulty": "advanced",
+        "question": "What is 'tailored persuasion' in social engineering?",
+        "options": [
+          "A. Persuading individuals to change their clothing style",
+          "B. Creating personalized messages to manipulate specific targets",
+          "C. Using clothing to influence people's behavior",
+          "D. A technique to promote team collaboration"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "difficulty": "advanced",
+        "question": "What is 'impersonation' in the context of social engineering?",
+        "options": [
+          "A. A method to impersonate celebrities online",
+          "B. A technique to imitate the behavior of others",
+          "C. Pretending to be someone else to deceive individuals and gain unauthorized access",
+          "D. A way to boost self-confidence"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "difficulty": "advanced",
+        "question": "Explain the concept of 'physical social engineering'.",
+        "options": [
+          "A. Using social media to engage with individuals in person",
+          "B. Manipulating people in a physical location to gain access to restricted areas",
+          "C. Encouraging individuals to attend social events",
+          "D. Building connections with coworkers through team-building activities"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "difficulty": "advanced",
+        "question": "What is 'insider threat' in the context of social engineering?",
+        "options": [
+          "A. A technique used by employees to expose company secrets",
+          "B. A security breach caused by external hackers",
+          "C. The risk of employees unknowingly sharing sensitive information",
+          "D. The threat posed by individuals within an organization who have access to sensitive information and misuse it"
+        ],
+        "correct_answer": 3
+      }
+    ]
+  },
+  {
+    "topic": "Data Breaches",
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "What is a data breach?",
+        "options": [
+          "A. A secure way to transfer data between devices",
+          "B. An intentional release of data to the public",
+          "C. Unauthorized access or exposure of sensitive information",
+          "D. A government investigation of data usage"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "difficulty": "easy",
+        "question": "What types of information can be compromised in a data breach?",
+        "options": [
+          "A. Personal identification numbers (PINs)",
+          "B. Secure encryption keys",
+          "C. Sensitive personal information, such as names and social security numbers",
+          "D. Random images and videos"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "difficulty": "easy",
+        "question": "How can a data breach occur?",
+        "options": [
+          "A. By performing regular security audits",
+          "B. By updating software frequently",
+          "C. Through a variety of methods, including hacking, social engineering, and malware",
+          "D. By using strong passwords"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "difficulty": "easy",
+        "question": "What is the primary goal of data breaches for attackers?",
+        "options": [
+          "A. To gain popularity",
+          "B. To disrupt internet services",
+          "C. To access and exploit sensitive information for financial gain or malicious purposes",
+          "D. To share security tips"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "difficulty": "easy",
+        "question": "Why is it important to protect personal information?",
+        "options": [
+          "A. Personal information is not valuable to attackers",
+          "B. Personal information is only used for marketing purposes",
+          "C. Personal information can be used for identity theft and fraud",
+          "D. Personal information is easily replaceable"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "difficulty": "intermediate",
+        "question": "What are some common methods used by attackers to gain unauthorized access to systems and cause data breaches?",
+        "options": [
+          "A. Sending friendly emails",
+          "B. Using strong passwords",
+          "C. Utilizing malware, phishing, and brute force attacks",
+          "D. Calling for technical support"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "difficulty": "intermediate",
+        "question": "Explain the concept of 'ransomware' and its role in data breaches.",
+        "options": [
+          "A. Ransomware is a type of software that enhances security measures",
+          "B. Ransomware is a strategy to promote ethical hacking",
+          "C. Ransomware encrypts victims' data and demands payment for its release",
+          "D. Ransomware is a form of social engineering"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "difficulty": "intermediate",
+        "question": "What is 'credential stuffing' and how can it lead to data breaches?",
+        "options": [
+          "A. Using strong passwords to protect sensitive information",
+          "B. Reusing passwords across multiple accounts, leading to unauthorized access",
+          "C. Attacking databases with malicious software",
+          "D. Selling credentials on the dark web"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "difficulty": "intermediate",
+        "question": "How can organizations prevent data breaches?",
+        "options": [
+          "A. By shutting down their online services",
+          "B. By using a single security measure",
+          "C. By implementing a combination of security measures, including strong authentication, encryption, and regular security audits",
+          "D. By avoiding technology altogether"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "difficulty": "intermediate",
+        "question": "What is the role of data encryption in preventing data breaches?",
+        "options": [
+          "A. Encryption increases the likelihood of data breaches",
+          "B. Encryption protects data by converting it into a code that can only be deciphered by authorized parties",
+          "C. Encryption creates multiple copies of sensitive data",
+          "D. Encryption reduces the need for authentication"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "difficulty": "advanced",
+        "question": "Explain the concept of a 'zero-day vulnerability' and how it can contribute to data breaches.",
+        "options": [
+          "A. A security hole that has existed for zero days",
+          "B. A vulnerability that exists in software without any security measures",
+          "C. A vulnerability that is exploited before the software vendor becomes aware and issues a fix",
+          "D. A vulnerability that is discovered after a breach occurs"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "difficulty": "advanced",
+        "question": "What is 'data anonymization' and how can it be used to mitigate the impact of data breaches?",
+        "options": [
+          "A. Data anonymization is a technique to make data unrecognizable, protecting individual privacy",
+          "B. Data anonymization is a method to increase data accessibility for attackers",
+          "C. Data anonymization enhances data breaches by making data more visible",
+          "D. Data anonymization is a technique to hide data from authorized users"
+        ],
+        "correct_answer": 0
+      },
+      {
+        "difficulty": "advanced",
+        "question": "Explain the term 'steganography' and its potential role in data breaches.",
+        "options": [
+          "A. Steganography is a form of encryption",
+          "B. Steganography is a technique to hide information within other forms of data, such as images or audio files",
+          "C. Steganography is a method to monitor network traffic",
+          "D. Steganography is a strategy to prevent data breaches"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "difficulty": "advanced",
+        "question": "What are the legal and financial consequences of data breaches for organizations?",
+        "options": [
+          "A. Data breaches only result in minor financial losses for organizations",
+          "B. Organizations are not legally responsible for protecting user data",
+          "C. Organizations can face lawsuits, regulatory fines, and reputation damage due to data breaches",
+          "D. Data breaches do not have any legal or financial consequences"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "difficulty": "advanced",
+        "question": "How can organizations create a robust incident response plan to address data breaches effectively?",
+        "options": [
+          "A. By ignoring data breaches and focusing on other security measures",
+          "B. By outsourcing incident response to third-party organizations",
+          "C. By establishing a well-defined incident response team, procedures, and communication plans",
+          "D. By limiting communication during a data breach to avoid panic"
+        ],
+        "correct_answer": 2
+      }
+    ]
+  },
+  {
+    "topic": "Secure Browsing",
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "What is the purpose of secure browsing?",
+        "options": [
+          "A. To increase website traffic",
+          "B. To prevent unauthorized access to personal information",
+          "C. To enable faster internet browsing",
+          "D. To display more ads"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "difficulty": "easy",
+        "question": "What does HTTPS stand for?",
+        "options": [
+          "A. High-Traffic Browsing Protocol",
+          "B. HyperText Transfer Protocol Secure",
+          "C. HyperText Transfer Protocol Simplified",
+          "D. Home-Based Transaction Processing"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "difficulty": "easy",
+        "question": "How does a VPN enhance secure browsing?",
+        "options": [
+          "A. By blocking all internet access",
+          "B. By encrypting internet traffic and masking the user's IP address",
+          "C. By slowing down internet connection speed",
+          "D. By displaying targeted ads"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "difficulty": "easy",
+        "question": "What is a 'phishing website'?",
+        "options": [
+          "A. A website dedicated to promoting phishing as a legitimate activity",
+          "B. A website that educates users about cybersecurity",
+          "C. A website that serves only educational content",
+          "D. A fake website designed to mimic a legitimate website and steal sensitive information"
+        ],
+        "correct_answer": 3
+      },
+      {
+        "difficulty": "easy",
+        "question": "What does 'incognito mode' or 'private browsing' in web browsers do?",
+        "options": [
+          "A. It makes the user invisible to others",
+          "B. It speeds up browsing",
+          "C. It hides the user's identity from websites",
+          "D. It prevents the browser from storing browsing history and cookies"
+        ],
+        "correct_answer": 3
+      },
+      {
+        "difficulty": "intermediate",
+        "question": "Explain the concept of 'browser extension security' and how users can ensure safe extensions.",
+        "options": [
+          "A. Browser extensions are software that help users download files",
+          "B. Browser extensions can have access to user data, so it's important to only use trusted extensions from reliable sources",
+          "C. Browser extensions are designed to speed up internet connection",
+          "D. Browser extensions are only used by developers"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "difficulty": "intermediate",
+        "question": "What is 'cross-site scripting (XSS)' and how can users protect themselves from it?",
+        "options": [
+          "A. XSS is a browser feature that enhances website performance",
+          "B. XSS is a security vulnerability that allows attackers to inject malicious code into websites",
+          "C. XSS is a method to prevent phishing attacks",
+          "D. XSS is a way to create secure login forms"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "difficulty": "intermediate",
+        "question": "What is 'content filtering' in the context of secure browsing?",
+        "options": [
+          "A. Blocking access to websites that contain inappropriate content",
+          "B. Allowing unrestricted access to all websites",
+          "C. Enhancing website loading speed",
+          "D. Preventing browsers from displaying ads"
+        ],
+        "correct_answer": 0
+      },
+      {
+        "difficulty": "intermediate",
+        "question": "Explain the role of a 'password manager' in enhancing secure browsing.",
+        "options": [
+          "A. Password managers are tools to create strong passwords",
+          "B. Password managers help users remember their passwords, reducing the risk of using weak passwords",
+          "C. Password managers help users surf the internet without a password",
+          "D. Password managers are only used by IT professionals"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "difficulty": "intermediate",
+        "question": "What is 'HTTPS Everywhere' and how does it contribute to secure browsing?",
+        "options": [
+          "A. HTTPS Everywhere is a plugin that forces websites to use HTTPS",
+          "B. HTTPS Everywhere is a technique to make websites load faster",
+          "C. HTTPS Everywhere is a protocol used by search engines",
+          "D. HTTPS Everywhere is a method to improve website design"
+        ],
+        "correct_answer": 0
+      },
+      {
+        "difficulty": "advanced",
+        "question": "Explain the concept of a 'man-in-the-middle attack' and how it can compromise secure browsing.",
+        "options": [
+          "A. A type of attack that targets browser extensions",
+          "B. A method to increase browsing speed",
+          "C. An attack where an attacker intercepts communication between two parties without their knowledge",
+          "D. An attack that occurs only on private networks"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "difficulty": "advanced",
+        "question": "What is 'DNS over HTTPS (DoH)' and how does it impact secure browsing?",
+        "options": [
+          "A. DoH is a technique to block websites with inappropriate content",
+          "B. DoH is a protocol that enhances internet connection speed",
+          "C. DoH is a method to encrypt DNS queries, providing an extra layer of privacy and security",
+          "D. DoH is a way to bypass firewalls"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "difficulty": "advanced",
+        "question": "How can users protect themselves from browser fingerprinting?",
+        "options": [
+          "A. By using a VPN and avoiding social media",
+          "B. By using a single browser for all online activities",
+          "C. By disabling JavaScript and cookies",
+          "D. By using multiple browsers and browser extensions to modify fingerprinting elements"
+        ],
+        "correct_answer": 3
+      },
+      {
+        "difficulty": "advanced",
+        "question": "What is the 'SameSite' attribute for cookies and how does it contribute to secure browsing?",
+        "options": [
+          "A. SameSite attribute allows cookies to be shared across different websites",
+          "B. SameSite attribute determines the size of cookies",
+          "C. SameSite attribute controls whether cookies can be accessed by cross-site requests",
+          "D. SameSite attribute is used to prevent websites from using HTTPS"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "difficulty": "advanced",
+        "question": "Explain the term 'end-to-end encryption' and its role in ensuring secure browsing.",
+        "options": [
+          "A. End-to-end encryption is a way to protect server data from attackers",
+          "B. End-to-end encryption ensures that data is encrypted during transmission between the user and the server, making it unreadable to anyone except the sender and recipient",
+          "C. End-to-end encryption is a method to speed up browsing",
+          "D. End-to-end encryption is a technique to bypass firewalls"
+        ],
+        "correct_answer": 1
+      }
+    ]
+  },
+  {
+    "topic": "Identity Theft",
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "What is identity theft?",
+        "options": [
+          "A. Sharing personal information with friends",
+          "B. Impersonating a famous person",
+          "C. Unauthorized use of someone's personal information for financial gain or other fraudulent activities",
+          "D. Creating a new online identity"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "difficulty": "easy",
+        "question": "What types of information can identity thieves target?",
+        "options": [
+          "A. Your favorite color",
+          "B. Social security numbers, credit card information, and passwords",
+          "C. Your school grades",
+          "D. Your favorite food"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "difficulty": "easy",
+        "question": "How can individuals protect themselves from identity theft?",
+        "options": [
+          "A. By sharing personal information on social media",
+          "B. By using simple and easy-to-remember passwords",
+          "C. By keeping personal information private and using strong, unique passwords",
+          "D. By clicking on links from unknown sources"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "difficulty": "easy",
+        "question": "What is 'phishing' in the context of identity theft?",
+        "options": [
+          "A. A way to catch fish",
+          "B. Sending emails to promote fishing events",
+          "C. A type of malware",
+          "D. Sending fake emails or messages to trick individuals into revealing personal information"
+        ],
+        "correct_answer": 3
+      },
+      {
+        "difficulty": "easy",
+        "question": "Why is it important to monitor financial accounts regularly?",
+        "options": [
+          "A. To track your favorite shopping websites",
+          "B. To review your social media activity",
+          "C. To identify any unauthorized or suspicious transactions",
+          "D. To update your email password"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "difficulty": "intermediate",
+        "question": "Explain the concept of 'identity cloning' and how it can lead to identity theft.",
+        "options": [
+          "A. Identity cloning is a technique to duplicate physical items",
+          "B. Identity cloning is a way to create multiple social media profiles",
+          "C. Identity cloning involves creating a fake identity that resembles a real person, leading to fraudulent activities",
+          "D. Identity cloning is a technique to secure personal information"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "difficulty": "intermediate",
+        "question": "What is 'pretexting' in the context of identity theft?",
+        "options": [
+          "A. Pretending to be someone else on social media",
+          "B. Pretending to be a famous person",
+          "C. Creating a fake identity for online gaming",
+          "D. Deceiving individuals by using a fabricated scenario to obtain personal information"
+        ],
+        "correct_answer": 3
+      },
+      {
+        "difficulty": "intermediate",
+        "question": "How can individuals protect their personal information on social media to prevent identity theft?",
+        "options": [
+          "A. By sharing everything openly to build connections",
+          "B. By accepting friend requests from unknown people",
+          "C. By adjusting privacy settings, sharing only with trusted individuals, and being cautious about what information is posted",
+          "D. By creating multiple social media profiles"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "difficulty": "intermediate",
+        "question": "What is 'two-factor authentication (2FA)' and how does it enhance protection against identity theft?",
+        "options": [
+          "A. 2FA is a way to share personal information with friends",
+          "B. 2FA is a type of malware",
+          "C. 2FA is a security method that requires users to provide two forms of identification to access an account, adding an extra layer of security",
+          "D. 2FA is a technique to create fake online identities"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "difficulty": "intermediate",
+        "question": "What is 'identity monitoring' and how can it help individuals prevent identity theft?",
+        "options": [
+          "A. Identity monitoring is a way to monitor social media activity",
+          "B. Identity monitoring is a technique to steal personal information",
+          "C. Identity monitoring involves regularly checking and reviewing personal information and financial accounts for any signs of unauthorized activity",
+          "D. Identity monitoring is used to update security software"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "difficulty": "advanced",
+        "question": "Explain the term 'synthetic identity theft' and how it differs from traditional identity theft.",
+        "options": [
+          "A. Synthetic identity theft involves stealing physical identity documents",
+          "B. Synthetic identity theft is a technique to create fake identities for online gaming",
+          "C. Synthetic identity theft combines real and fake information to create a new identity, making detection more difficult",
+          "D. Synthetic identity theft is a method to protect personal information"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "difficulty": "advanced",
+        "question": "How can individuals protect themselves from 'smishing' attacks in the context of identity theft?",
+        "options": [
+          "A. By avoiding all text messages",
+          "B. By clicking on links sent via text messages",
+          "C. By not sharing personal information via text messages",
+          "D. By responding to text messages from unknown numbers"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "difficulty": "advanced",
+        "question": "What is 'dark web monitoring' and how can it help individuals prevent identity theft?",
+        "options": [
+          "A. Dark web monitoring involves browsing the dark web for entertainment purposes",
+          "B. Dark web monitoring is a technique to hide personal information from attackers",
+          "C. Dark web monitoring involves tracking the dark web for signs of stolen personal information being bought or sold",
+          "D. Dark web monitoring is a way to access illegal websites"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "difficulty": "advanced",
+        "question": "Explain the term 'identity theft insurance' and its role in protecting individuals from identity theft.",
+        "options": [
+          "A. Identity theft insurance covers physical theft of items",
+          "B. Identity theft insurance compensates individuals for the loss of social media accounts",
+          "C. Identity theft insurance provides financial compensation and assistance in the event of identity theft-related losses",
+          "D. Identity theft insurance only covers online identity theft"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "difficulty": "advanced",
+        "question": "What steps can individuals take to recover from identity theft if their personal information has been compromised?",
+        "options": [
+          "A. Ignore the situation and hope it goes away",
+          "B. Inform only a few close friends about the incident",
+          "C. Contact the appropriate authorities, report the incident to credit bureaus, and work with financial institutions to resolve the issue",
+          "D. Wait for the identity thief to stop using the stolen information"
+        ],
+        "correct_answer": 2
+      }
+    ]
+  },
+  {
+    "topic": "Password Security",
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "What is a strong password?",
+        "options": [
+          "A. A password that is easy to remember, like '123456'",
+          "B. A password that includes the user's name and birthdate",
+          "C. A password that combines uppercase and lowercase letters, numbers, and symbols",
+          "D. A password that is the same for all online accounts"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "difficulty": "easy",
+        "question": "Why is using 'password' or '123456' as a password a bad idea?",
+        "options": [
+          "A. These passwords are too long and difficult to remember",
+          "B. These passwords are not allowed by websites",
+          "C. These passwords are easy for attackers to guess",
+          "D. These passwords are too complex to type"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "difficulty": "easy",
+        "question": "What is a password manager?",
+        "options": [
+          "A. A tool used to reset forgotten passwords",
+          "B. A person responsible for managing passwords in an organization",
+          "C. A software that generates and stores secure passwords",
+          "D. A device used to keep physical copies of passwords"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "difficulty": "easy",
+        "question": "What is two-factor authentication (2FA)?",
+        "options": [
+          "A. A way to use two different passwords for the same account",
+          "B. A method that requires two separate user accounts",
+          "C. A security feature that requires two forms of verification to access an account",
+          "D. A password that changes every two days"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "difficulty": "easy",
+        "question": "Why should you avoid using personal information like your birthdate in your password?",
+        "options": [
+          "A. Personal information is difficult to remember",
+          "B. Birthdates are too short to be used as passwords",
+          "C. Personal information is easy for attackers to find or guess",
+          "D. Birthdates can only be used as passwords on certain websites"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "difficulty": "intermediate",
+        "question": "What is password entropy?",
+        "options": [
+          "A. The amount of time it takes to create a password",
+          "B. The level of complexity and unpredictability of a password",
+          "C. The number of characters in a password",
+          "D. The average lifespan of a password"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "difficulty": "intermediate",
+        "question": "Why is using dictionary words in passwords a security risk?",
+        "options": [
+          "A. Dictionary words are too long to be used in passwords",
+          "B. Dictionary words are difficult to remember",
+          "C. Attackers can use brute force attacks to guess dictionary words",
+          "D. Dictionary words are the most secure option for passwords"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "difficulty": "intermediate",
+        "question": "What is the purpose of salting in password hashing?",
+        "options": [
+          "A. To make passwords taste better",
+          "B. To add extra characters to passwords",
+          "C. To increase the length of passwords",
+          "D. To prevent attackers from using precomputed tables to crack passwords"
+        ],
+        "correct_answer": 3
+      },
+      {
+        "difficulty": "intermediate",
+        "question": "Why is it important to use different passwords for different online accounts?",
+        "options": [
+          "A. It's not important; using the same password is secure",
+          "B. Different passwords make it harder to log in to multiple accounts",
+          "C. Using the same password simplifies password management",
+          "D. If one account is compromised, attackers won't have access to all accounts"
+        ],
+        "correct_answer": 3
+      },
+      {
+        "difficulty": "intermediate",
+        "question": "What is the principle of least privilege?",
+        "options": [
+          "A. Using the most complex passwords for all accounts",
+          "B. Providing the fewest privileges necessary for a user to perform their tasks",
+          "C. Giving users access to all features and functions",
+          "D. Granting unlimited privileges to administrators"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "difficulty": "advanced",
+        "question": "Explain the concept of passphrase and how it differs from a traditional password.",
+        "options": [
+          "A. A passphrase is a single-word password",
+          "B. A passphrase is a sequence of random characters",
+          "C. A passphrase is a longer and more complex sequence of words or characters",
+          "D. A passphrase is a method of password recovery"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "difficulty": "advanced",
+        "question": "What is the concept of 'zero-knowledge proof' in authentication?",
+        "options": [
+          "A. A proof that requires no authentication",
+          "B. A proof that requires zero knowledge of mathematics",
+          "C. A method of authentication that doesn't require any prior knowledge from the user",
+          "D. A type of encryption algorithm"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "difficulty": "advanced",
+        "question": "What is the role of a hardware security module (HSM) in password security?",
+        "options": [
+          "A. It generates random passwords",
+          "B. It stores and manages cryptographic keys securely",
+          "C. It prevents users from changing their passwords",
+          "D. It automatically updates passwords"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "difficulty": "advanced",
+        "question": "Explain the 'principle of never trust, always verify' in the context of password security.",
+        "options": [
+          "A. It's a philosophy that encourages using the same password everywhere",
+          "B. It's a principle that advises against using any form of verification",
+          "C. It emphasizes the importance of regular password updates",
+          "D. It suggests verifying user identities even if they provide correct credentials"
+        ],
+        "correct_answer": 3
+      },
+      {
+        "difficulty": "advanced",
+        "question": "What is the concept of 'passwordless authentication'?",
+        "options": [
+          "A. A method of authentication that doesn't involve passwords",
+          "B. A method that uses only passwords for authentication",
+          "C. A method that uses one-time passwords for authentication",
+          "D. A method that allows users to choose any password"
+        ],
+        "correct_answer": 0
+      }
+    ]
+  },
+
+  {
+    "topic": "Network Security",
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "What is network security?",
+        "options": [
+          "A. Protecting physical assets from theft",
+          "B. Protecting computer hardware from overheating",
+          "C. Protecting a computer network infrastructure from unauthorized access and attacks",
+          "D. Ensuring a high-speed network connection"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "difficulty": "easy",
+        "question": "What is a firewall?",
+        "options": [
+          "A. A protective barrier around a computer",
+          "B. A device that controls the flow of water in a network",
+          "C. A security feature that blocks unauthorized network traffic",
+          "D. A type of antivirus software"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "difficulty": "easy",
+        "question": "What is the purpose of an antivirus program?",
+        "options": [
+          "A. To provide secure access to a network",
+          "B. To monitor network performance",
+          "C. To block websites that are not safe",
+          "D. To detect and remove malicious software"
+        ],
+        "correct_answer": 3
+      },
+      {
+        "difficulty": "easy",
+        "question": "What is a phishing attack?",
+        "options": [
+          "A. A physical attack on a network server",
+          "B. An attack that destroys network cables",
+          "C. A type of malware",
+          "D. An attempt to trick individuals into revealing sensitive information"
+        ],
+        "correct_answer": 3
+      },
+      {
+        "difficulty": "easy",
+        "question": "Why is it important to keep software up to date for network security?",
+        "options": [
+          "A. To improve network speed",
+          "B. To reduce energy consumption",
+          "C. To prevent security vulnerabilities from being exploited",
+          "D. To decrease network latency"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "difficulty": "intermediate",
+        "question": "What is a denial-of-service (DoS) attack?",
+        "options": [
+          "A. An attack that denies access to a specific network service",
+          "B. An attack that disrupts a network by physically damaging cables",
+          "C. A method to encrypt sensitive data during transmission",
+          "D. An attack that tricks users into downloading malicious software"
+        ],
+        "correct_answer": 0
+      },
+      {
+        "difficulty": "intermediate",
+        "question": "What is the difference between symmetric and asymmetric encryption?",
+        "options": [
+          "A. There is no difference; both terms refer to the same encryption technique",
+          "B. Symmetric encryption uses the same key for both encryption and decryption, while asymmetric encryption uses different keys",
+          "C. Symmetric encryption is more secure than asymmetric encryption",
+          "D. Asymmetric encryption is faster than symmetric encryption"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "difficulty": "intermediate",
+        "question": "What is a virtual private network (VPN) and how does it enhance network security?",
+        "options": [
+          "A. A method of creating virtual network connections without encryption",
+          "B. A tool that speeds up network connections",
+          "C. A way to connect to the internet without a network provider",
+          "D. A technology that encrypts internet connections, enhancing privacy and security"
+        ],
+        "correct_answer": 3
+      },
+      {
+        "difficulty": "intermediate",
+        "question": "Explain the concept of a man-in-the-middle (MitM) attack in network security.",
+        "options": [
+          "A. An attack that targets only men on the network",
+          "B. An attack that occurs in the middle of the day",
+          "C. An attacker intercepts and alters communication between two parties without their knowledge",
+          "D. An attack that only affects networks with a middle-eastern origin"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "difficulty": "intermediate",
+        "question": "What is a honeypot in the context of network security?",
+        "options": [
+          "A. A type of firewall",
+          "B. A network device used to attract and detect unauthorized access attempts",
+          "C. A method to slow down network traffic",
+          "D. A type of antivirus software"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "difficulty": "advanced",
+        "question": "What is a zero-trust network architecture?",
+        "options": [
+          "A. A network that doesn't allow any devices to connect",
+          "B. A network that trusts all devices equally",
+          "C. A security model that assumes all devices, even those inside the network perimeter, are untrusted",
+          "D. A network that uses zero security measures"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "difficulty": "advanced",
+        "question": "Explain the concept of 'sandboxing' in network security.",
+        "options": [
+          "A. A method of securing sandboxes on the beach",
+          "B. A way to limit the use of internet sandboxes",
+          "C. A technique that isolates potentially malicious files or programs to prevent them from affecting the system",
+          "D. A process of creating virtual sandboxes for network testing"
+        ],
+        "correct_answer": 3
+      },
+      {
+        "difficulty": "advanced",
+        "question": "What is 'deep packet inspection' (DPI) and how is it used in network security?",
+        "options": [
+          "A. An encryption technique used to secure network packets",
+          "B. A method to inspect and analyze the contents of network packets for security purposes",
+          "C. A way to compress network packets to improve network performance",
+          "D. A technique to hide network packets from attackers"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "difficulty": "advanced",
+        "question": "What is a 'security information and event management' (SIEM) system?",
+        "options": [
+          "A. A system that secures information and events during network downtime",
+          "B. A system used for event planning in security conferences",
+          "C. A centralized platform that aggregates and analyzes security data from various sources",
+          "D. A system that provides security information to hackers"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "difficulty": "advanced",
+        "question": "Explain the concept of 'zero-day vulnerability' in network security.",
+        "options": [
+          "A. A vulnerability that doesn't require any patches",
+          "B. A vulnerability that exists for zero days before it is exploited",
+          "C. A vulnerability that is unknown to the software vendor and doesn't have a fix",
+          "D. A vulnerability that occurs only on the zeroth day of the year"
+        ],
+        "correct_answer": 2
+      }
+    ]
+  },
+
+  {
+    "topic": "Phishing",
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "What is phishing?",
+        "options": [
+          "A. A method of catching fish",
+          "B. A fraudulent attempt to obtain sensitive information",
+          "C. A type of malware",
+          "D. A security protocol"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "difficulty": "easy",
+        "question": "What is the primary goal of a phishing attack?",
+        "options": [
+          "A. Spreading computer viruses",
+          "B. Installing security patches",
+          "C. Educating users about online safety",
+          "D. Obtaining sensitive information"
+        ],
+        "correct_answer": 3
+      },
+      {
+        "difficulty": "easy",
+        "question": "Which of the following is a common method used in phishing attacks?",
+        "options": [
+          "A. Sending handwritten letters",
+          "B. Physically breaking into computers",
+          "C. Creating fake websites and emails",
+          "D. Distributing free software"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "difficulty": "easy",
+        "question": "What is the danger of clicking on links in suspicious emails?",
+        "options": [
+          "A. It can cause your computer to overheat",
+          "B. It can reveal your IP address",
+          "C. It can lead to downloading malware or disclosing personal information",
+          "D. It can make your keyboard malfunction"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "difficulty": "easy",
+        "question": "What should you do if you receive an email asking for your password?",
+        "options": [
+          "A. Ignore the email",
+          "B. Reply with your password",
+          "C. Provide your password to verify your identity",
+          "D. Contact the sender to verify the request"
+        ],
+        "correct_answer": 3
+      },
+      {
+        "difficulty": "intermediate",
+        "question": "What is a red flag that may indicate a phishing email?",
+        "options": [
+          "A. A professional-looking email address",
+          "B. A generic greeting like 'Dear Customer'",
+          "C. A clear explanation of the email's purpose",
+          "D. A link to a legitimate website"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "difficulty": "intermediate",
+        "question": "What is the purpose of email spoofing in phishing attacks?",
+        "options": [
+          "A. To make emails look more colorful",
+          "B. To send attachments with emails",
+          "C. To change the sender's email address to impersonate someone else",
+          "D. To increase the font size of email content"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "difficulty": "intermediate",
+        "question": "How can you verify the authenticity of a website before entering your login credentials?",
+        "options": [
+          "A. Check if the website has flashy animations",
+          "B. Enter your credentials and see if they're accepted",
+          "C. Look for 'https://' and a padlock icon in the address bar",
+          "D. Close your eyes and click randomly on the screen"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "difficulty": "intermediate",
+        "question": "What is the purpose of a CAPTCHA in online forms?",
+        "options": [
+          "A. To ensure users provide their real names",
+          "B. To slow down the submission process",
+          "C. To prevent automated submissions by bots",
+          "D. To encrypt the data entered by users"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "difficulty": "intermediate",
+        "question": "What is a common reason why phishing emails are effective?",
+        "options": [
+          "A. People enjoy reading phishing emails",
+          "B. Phishing emails are usually written by professionals",
+          "C. People are curious and may click on links without thinking",
+          "D. Phishing emails always contain correct information"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "difficulty": "advanced",
+        "question": "What is a zero-day vulnerability and how can it be exploited in phishing attacks?",
+        "options": [
+          "A. A vulnerability that occurs only on weekends",
+          "B. A software vulnerability that is not yet known to the vendor and can be exploited before a patch is released",
+          "C. A vulnerability that affects zero devices",
+          "D. A vulnerability that requires zero technical expertise to exploit"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "difficulty": "advanced",
+        "question": "What is pretexting in the context of phishing?",
+        "options": [
+          "A. A technique to reduce the size of phishing emails",
+          "B. The act of pretending to be a legitimate organization to gain sensitive information",
+          "C. A way to encrypt phishing emails for added security",
+          "D. The use of advanced programming languages in phishing attacks"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "difficulty": "advanced",
+        "question": "What is a water-holing attack?",
+        "options": [
+          "A. An attack targeting aquatic animals",
+          "B. A type of physical intrusion",
+          "C. An attack that compromises websites frequently visited by the target",
+          "D. An attack that uses water-based malware"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "difficulty": "advanced",
+        "question": "Explain the concept of CEO fraud and how it is used in phishing attacks.",
+        "options": [
+          "A. A type of phishing attack targeting CEOs exclusively",
+          "B. An attack involving the impersonation of a company's CEO to trick employees into transferring money or sensitive information",
+          "C. An attack that uses fraudulently obtained water filters",
+          "D. A technique used by hackers to gain access to company email servers"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "difficulty": "advanced",
+        "question": "What is the role of social engineering in successful phishing attacks?",
+        "options": [
+          "A. Social engineering is not relevant to phishing attacks",
+          "B. Social engineering is used to repair damage caused by phishing attacks",
+          "C. Social engineering is the technical aspect of phishing attacks",
+          "D. Social engineering manipulates human psychology to deceive users into revealing sensitive information"
+        ],
+        "correct_answer": 3
+      }
+    ]
+  }
+]
