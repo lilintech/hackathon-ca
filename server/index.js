@@ -16,7 +16,7 @@ const { addCrimeCategory } = require('./routes/addCrimeCategory');
 const { jwtVerification } = require('./middleware/jwtVerification');
 const { getCrimes, getCrimesCategories } = require('./routes/getCrimes');
 const { handleRefresh } = require('./routes/refreshToken');
-const { getTopics } = require('./routes/topics');
+const { getTopics, levelQuestions, optionsAndQuestions } = require('./routes/topics');
 const app = express();
 
 // middlewares
@@ -59,3 +59,4 @@ app.use(getCrimes) //get all reported crimes
 
 // !topics stuff
 app.use(getTopics)
+app.use(optionsAndQuestions) // get questions and options by topicid according to difficluty level
