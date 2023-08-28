@@ -90,8 +90,11 @@ export const reportStyles = StyleSheet.create({
     flexGrow: 1,
 
   },
-  errorMessage:{
+  errorData:{
     color: "red",
+    fontSize: 15,
+    textAlign: 'center',
+
   },
   TextInputCont:{
     marginTop: 10,

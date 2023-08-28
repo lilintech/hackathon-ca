@@ -7,30 +7,51 @@ import { reportSchema } from "../../validation/authenticationSchema";
 import Checkbox from "expo-checkbox";
 import {
   ApplicationProvider,
+  Icon,
   Select,
   SelectItem,
   Button,
 } from "@ui-kitten/components";
 import * as eva from "@eva-design/eva";
-import { getCategories } from "../../services/helpers/helperFunctions";
+import {
+  getCategories,
+  reportIncident,
+} from "../../services/helpers/helperFunctions";
+import axios from "axios";
+import { API_URL } from "../../services/api";
 
 export default function Report() {
   const [selectedIndex, setSelectedIndex] = useState(null);
   const [selectedCrimeId, setSelectedCrimeId] = useState(null);
   const [data, setData] = useState([]);
+  const [errorData, setErrorData] = useState("");
 
-  const handleSubmit = (values) => {
-    const data = {
+  // form submission
+  const handleSubmit = async (values, { resetForm }) => {
+    const report = {
       ...values,
       crime_id: selectedCrimeId,
     };
-    console.log(data);
+
+    try {
+      const response = await axios.post(`${API_URL}/api/v1/report`, report);
+      if (response && response.status === 200) {
+        setErrorData(response.data.message);
+        resetForm();
+      } else {
+        setErrorData(response.data.message);
+      }
+      setSelectedCrimeId(null);
+      console.log(response.data);
+    } catch (error) {
+      console.log(error);
+    }
   };
 
   useEffect(() => {
     const get = () => {
       getCategories().then((response) => {
-        console.log(response.data);
+        // console.log(response.data);
         setData(response.data);
       });
     };
@@ -49,6 +70,7 @@ export default function Report() {
     >
       <View style={reportStyles.header}>
         <Text style={reportStyles.seen}>Seen a crime? Report Now!</Text>
+        <Text style={reportStyles.errorData}>{errorData}</Text>
         <Formik
           initialValues={{
             email_address: "",
@@ -59,15 +81,14 @@ export default function Report() {
             crime_description: "",
           }}
           validationSchema={reportSchema}
-          onSubmit={(values, { resetForm }) => {
-            handleSubmit(values);
-            // resetForm(); //formik function to clear the form after successful submit
-          }}
+          onSubmit={handleSubmit}
         >
           {(props) => (
             <View style={reportStyles.form}>
               <Text style={reportStyles.personal}>Personal Info</Text>
               <View>
+                <View>
+                  {/* <Icon name="people-outline" {...props} /> */}
                 <TextInput
                   style={reportStyles.commonInput}
                   placeholder="First Name"
@@ -78,6 +99,7 @@ export default function Report() {
                 <Text style={reportStyles.errorMessage}>
                   {props.touched.first_name && props.errors.first_name}
                 </Text>
+                </View>
                 <TextInput
                   style={reportStyles.commonInput}
                   placeholder="Last Name"
