@@ -22,6 +22,27 @@ const addNewCrimeCategoryHandler = async (req, res) => {
   }
 };
 
+// ! get all categories
+const getcategoriesHandler = async (req,res) =>{
+  try {
+    connection.query(
+      "SELECT * FROM CrimesTypes",
+      [],
+      (err, results, fields) =>{
+        if(err){
+          console.log(err);
+          return res.status(500).json({message: "An error occurred while fetchng"})
+        }
+        
+        return res.json(results)
+      }
+    )
+  } catch (error) {
+    console.log(error);
+    return res.status(500).json({message: "an error occurred"})
+  }
+}
+
 const reportIncidentHandler = async (req, res) => {
   const {
     last_name,
@@ -83,4 +104,5 @@ module.exports = {
   addNewCrimeCategoryHandler,
   reportIncidentHandler,
   getAllCrimesHandler,
+  getcategoriesHandler
 };
