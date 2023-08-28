@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import { Formik } from "formik";
 import { createAccSchema } from "../../validation/authenticationSchema";
 import { TextInput } from "react-native-gesture-handler";
-import Styles from "../../styles/Styles";
+import { Styles } from "../../styles/Styles";
 import AuthLogo from "../common/AuthLogo";
 import background from "../../../assets/background.jpeg";
 import { useNavigation } from "@react-navigation/native";
