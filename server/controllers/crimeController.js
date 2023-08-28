@@ -72,7 +72,7 @@ const reportIncidentHandler = async (req, res) => {
         if (err) {
           return res.json({
             message: "Failed to write incident to database",
-          });
+          }).sendStatus(500);
         }
 
         return res.json({ message: "Incident reported successfully" });
