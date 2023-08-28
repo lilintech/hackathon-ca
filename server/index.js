@@ -14,9 +14,9 @@ const { forgotPass } = require('./routes/forgot');
 const { reportIncident } = require('./routes/reportIncident');
 const { addCrimeCategory } = require('./routes/addCrimeCategory');
 const { jwtVerification } = require('./middleware/jwtVerification');
-const { getCrimes } = require('./routes/getCrimes');
+const { getCrimes, getCrimesCategories } = require('./routes/getCrimes');
 const { handleRefresh } = require('./routes/refreshToken');
-const { getcategoriesHandler } = require('./controllers/crimeController');
+const { getTopics } = require('./routes/topics');
 const app = express();
 
 // middlewares
@@ -53,6 +53,9 @@ app.use(handleRefresh)
 // app.use(jwtVerification)
 // ! report and add crime
 app.use(reportIncident)
-app.use(getcategoriesHandler)
+app.use(getCrimesCategories)
 app.use(addCrimeCategory)
-app.use(getCrimes); //get all reported crimes
+app.use(getCrimes) //get all reported crimes
+
+// !topics stuff
+app.use(getTopics)
