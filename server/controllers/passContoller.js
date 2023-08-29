@@ -142,7 +142,7 @@ const handleForgotPass = (req, res) => {
         `;
 
         const mailOptions = {
-          from: "wschool752@gmail.com",
+          from: "Cyber Safe wschool752@gmail.com",
           to: user.email,
           subject: "Password Reset Request",
           html: htmlContent,
