@@ -27,9 +27,8 @@ const getQuestionsAndOptions = (req, res) => {
 
   try {
     // query db
-    // `SELECT question_id, question_text FROM QuizQuestions WHERE (topic_id = ? AND difficulty_level = ?)`,
-
     connection.query(
+        // join between QuizQuestions and QuizOPtions
       `SELECT
         qq.question_id,
         qq.question_text,
@@ -85,5 +84,10 @@ const getQuestionsAndOptions = (req, res) => {
     return res.status(500).json("An error occurred" + error);
   }
 };
+
+// get user scores, for simplicity i checked if answers are correct in frontend
+const getScores = (req,res) =>{
+  
+}
 
 module.exports = { getAllTopics, getQuestionsAndOptions };

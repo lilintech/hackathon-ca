@@ -19,7 +19,8 @@ const handleRefreshToken = (req, res) => {
   //verify the received refresh token
   jwt.verify(refreshToken, process.env.REFRESH_TOKEN_SECRET, (err, decoded) => {
     if (err) {
-      return res.sendStatus(403);
+      // todo change error codes
+      return res.sendStatus(403); 
     }
     // if valid generate new
     const newAccessToken = jwt.sign(
