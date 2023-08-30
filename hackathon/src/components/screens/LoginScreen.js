@@ -1,19 +1,19 @@
 import { Button, ImageBackground, StyleSheet, Text, View } from "react-native";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Formik } from "formik";
 import { loginSchema } from "../../validation/authenticationSchema";
 import { TextInput } from "react-native-gesture-handler";
 import { Styles } from "../../styles/Styles";
 import AuthLogo from "../common/AuthLogo";
 import background from "../../../assets/background.jpeg";
-import { useNavigation } from "@react-navigation/native";
 import { post } from "../../services/api";
+import { tokenStore } from "../../utility/tokens";
 
-const LoginScreen = () => {
+const LoginScreen = ({ navigation, route }) => {
   const [errorData, setErrorData] = useState("");
+  const { setIsAuthenticated } = route.params;
 
-  const navigation = useNavigation();
-
+ 
   // handle form submit
   const handleSubmit = async (values) => {
     const data = {
@@ -29,13 +29,19 @@ const LoginScreen = () => {
       if (response.status === 200) {
         console.log(response.data);
         setErrorData(null);
-        navigation.navigate("Topics");
+
+        // store the tokens
+        const accessToken = response.data.accessToken;
+        const refreshToken = response.data.refreshToken;
+
+        await tokenStore(accessToken, refreshToken);
+        setIsAuthenticated(true);
       }
     } catch (error) {
       if (error.response) {
         console.log(error.response.data);
         if (error.response.status === 400) {
-          setErrorData(error.response.data);
+          setErrorData(error.response.data.message);
         } else if (error.response.status === 404) {
           setErrorData("Resource not found");
         } else {
@@ -100,9 +106,14 @@ const LoginScreen = () => {
           )}
         </Formik>
 
-            <View>
-              <Text onPress={() => navigation.navigate("ForgotPassword")} style={Styles.forgot} >Forgot password?</Text>
-            </View>
+        <View>
+          <Text
+            onPress={() => navigation.navigate("ForgotPassword")}
+            style={Styles.forgot}
+          >
+            Forgot password?
+          </Text>
+        </View>
 
         <View style={Styles.link}>
           <Text style={Styles.linkText} onPress={handlePress}>

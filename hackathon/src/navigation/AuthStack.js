@@ -8,11 +8,18 @@ import ForgotScreen from "../components/screens/ForgotScreen";
 
 const AuthStack = createStackNavigator();
 
-const AuthStackNavigator = () => {
+const AuthStackNavigator = ({ setIsAuthenticated }) => {
   return (
-    <AuthStack.Navigator initialRouteName="Login" >
+    <AuthStack.Navigator initialRouteName="Login">
+      <AuthStack.Screen
+        name="Login"
+        component={LoginScreen}
+        options={{
+          headerShown: false,
+        }}
+        initialParams={{ setIsAuthenticated }}
+      />
       <AuthStack.Screen name="CreateAccount" component={CreateAccScreen} />
-      <AuthStack.Screen name="Login" component={LoginScreen} />
       <AuthStack.Screen name="ForgotPassword" component={ForgotScreen} />
     </AuthStack.Navigator>
   );

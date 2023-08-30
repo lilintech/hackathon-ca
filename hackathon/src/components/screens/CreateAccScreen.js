@@ -42,7 +42,7 @@ const CreateAccScreen = () => {
         } else if (error.response.status === 404) {
           setErrorData("Resource not found");
         } else {
-          setErrorData("An error occurred");
+          setErrorData(error.response.data.msg);
         }
       } else {
         console.log("An error occured: ", error.message);

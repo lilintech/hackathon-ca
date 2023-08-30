@@ -1,24 +1,24 @@
-import * as React from "react";
-import { createDrawerNavigator } from "@react-navigation/drawer";
+// import * as React from "react";
+// import { createDrawerNavigator } from "@react-navigation/drawer";
+// import AuthStackNavigator from "./AuthStack";
+// // stacks
+// import TopicStack from "./TopicStack";
+// import Report from "../components/screens/Report";
+// import News from "../components/screens/News";
 
-// stacks
-import TopicStack from "./TopicStack";
-import Report from "../components/screens/Report";
-import News from "../components/screens/News";
-
-// create the drawer
-const Drawer = createDrawerNavigator();
-// drawer navigation options
-const RootDrawerNavigator = () => {
-  return (
+// // create the drawer
+// const Drawer = createDrawerNavigator();
+// // drawer navigation options
+// const RootDrawerNavigator = ({navigation}) => {
+//   return (
    
-      <Drawer.Navigator>
-        <Drawer.Screen  name="Topics" component={TopicStack} />
-        <Drawer.Screen name="News" component={News} />
-        <Drawer.Screen name="Report Incident" component={Report} />
-      </Drawer.Navigator>
+//       <Drawer.Navigator>
+//         <Drawer.Screen  name="Topics" component={TopicStack} />
+//         <Drawer.Screen name="News" component={News} />
+//         <Drawer.Screen name="Report Incident" component={Report} />
+//       </Drawer.Navigator>
    
-  );
-};
+//   );
+// };
 
-export default RootDrawerNavigator;
+// export default RootDrawerNavigator;
