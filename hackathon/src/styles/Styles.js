@@ -39,6 +39,12 @@ export const Styles = StyleSheet.create({
 
     fontWeight: "bold",
   },
+  forgot: {
+    backgroundColor: "red",
+    marginBottom: 20,
+    marginTop: 20,
+    padding: 10,
+  },
 });
 
 // stylesheet for report new incident
@@ -77,29 +83,72 @@ export const reportStyles = StyleSheet.create({
     flexDirection: "row",
     gap: 16,
   },
-  incidentDesc:{
+  incidentDesc: {
     height: 100,
-    textAlignVertical: 'top',
+    textAlignVertical: "top",
     padding: 5,
   },
 
-  scrollViewContent:{
+  scrollViewContent: {
     flexGrow: 1,
   },
-  TextInputContent:{
+  TextInputContent: {
     flexGrow: 1,
-
   },
-  errorData:{
+  errorData: {
     color: "red",
     fontSize: 15,
-    textAlign: 'center',
-
+    textAlign: "center",
   },
-  TextInputCont:{
+  TextInputCont: {
     marginTop: 10,
     marginBottom: 20,
     paddingHorizontal: 15,
     backgroundColor: "#f0f0f0",
+  },
+});
+
+// stylesheet for forgot passwrod screen
+export const forgot = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: "beige",
+    alignItems: "center",
+    // marginTop: 80,
+    width: "100vw",
+    height: "100vh",
+  },
+  heading: {
+    // backgroundColor: "yellow",
+    padding: 10,
+    textAlign: "center",
+    fontSize: 30,
+    marginTop: 20,
+  },
+  form: {
+    padding: 20,
+    justifyContent: "center",
+    // alignItems: "center",
+    width: "100%",
+    marginTop: 40,
+  },
+  input: {
+    borderWidth: 1,
+    borderColor: "black",
+    padding: 10,
+    fontSize: 18,
+    borderRadius: 6,
+    marginTop: 10,
+    width: "100%",
+    color: "black",
+  },
+  button:{
+    marginTop: 20,
+    width: "100%",
+    alignItems: 'center'
+  },
+  form_error:{
+    color: 'grey',
+    marginTop: 5,
   }
 });

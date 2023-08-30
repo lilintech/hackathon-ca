@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { View, Text } from "react-native";
-import { reportStyles } from "../../styles/Styles";
+import { forgot, reportStyles } from "../../styles/Styles";
 import { Field, Formik } from "formik";
 import { ScrollView, TextInput } from "react-native-gesture-handler";
 import { reportSchema } from "../../validation/authenticationSchema";
@@ -206,7 +206,7 @@ export default function Report() {
                   </ScrollView>
                 </View>
 
-                <Button onPress={props.handleSubmit}>Submit Report</Button>
+                <Button  onPress={props.handleSubmit}>Submit Report</Button>
               </View>
             </View>
           )}

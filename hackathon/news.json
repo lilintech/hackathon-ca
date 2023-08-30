@@ -1,0 +1,396 @@
+{
+    "status": "ok",
+    "totalResults": 5936,
+    "articles": [
+        {
+            "source": {
+                "id": null,
+                "name": null
+            },
+            "author": null,
+            "title": null,
+            "description": null,
+            "url": null,
+            "urlToImage": null,
+            "publishedAt": null,
+            "content": null
+        },
+        {
+            "source": {
+                "id": null,
+                "name": null
+            },
+            "author": null,
+            "title": null,
+            "description": null,
+            "url": null,
+            "urlToImage": null,
+            "publishedAt": null,
+            "content": null
+        },
+        {
+            "source": {
+                "id": null,
+                "name": null
+            },
+            "author": null,
+            "title": null,
+            "description": null,
+            "url": null,
+            "urlToImage": null,
+            "publishedAt": null,
+            "content": null
+        },
+        {
+            "source": {
+                "id": null,
+                "name": null
+            },
+            "author": null,
+            "title": null,
+            "description": null,
+            "url": null,
+            "urlToImage": null,
+            "publishedAt": null,
+            "content": null
+        },
+        {
+            "source": {
+                "id": "wired",
+                "name": "Wired"
+            },
+            "author": "Kate O'Flaherty",
+            "title": "Apple iOS, Google Android Patch Zero-Days in July Security Updates",
+            "description": "Plus: Mozilla fixes two high-severity bugs in Firefox, Citrix fixes a flaw that was used to attack a US-based critical infrastructure organization, and Oracle patches over 500 vulnerabilities.",
+            "url": "https://www.wired.com/story/apple-google-microsoft-zero-day-fix-july-2023/",
+            "urlToImage": "https://media.wired.com/photos/64c4339420abe9537824f97a/191:100/w_1280,c_limit/072723-security-critical-updates-july-an-02.png",
+            "publishedAt": "2023-07-31T11:00:00Z",
+            "content": "CVE-2023-26083 is an issue in Arm Mali GPU driver for Bifrost, Avalon, and Valhall chips, rated as having a moderate impact. The vulnerability was used to deliver spyware to Samsung devices in Decemb… [+4160 chars]"
+        },
+        {
+            "source": {
+                "id": "wired",
+                "name": "Wired"
+            },
+            "author": "Andy Greenberg",
+            "title": "New Supply Chain Attack Hit Close to 100 Victims—and Clues Point to China",
+            "description": "The hackers, who mostly targeted victims in Hong Kong, also hijacked Microsoft’s trust model to make their malware harder to detect.",
+            "url": "https://www.wired.com/story/carderbee-china-hong-kong-supply-chain-attack/",
+            "urlToImage": "https://media.wired.com/photos/64e3ed7eef8671d76d4a8b81/191:100/w_1280,c_limit/A-New-Supply-Chain-Attack-Hit-Close-to-100-Victims%E2%80%94and-Clues-Point-to-China-Security-GettyImages-1587519761.png",
+            "publishedAt": "2023-08-22T10:00:00Z",
+            "content": "Every software supply chain attack, in which hackers corrupt a legitimate application to push out their malware to hundreds or potentially thousands of victims, represents a disturbing new outbreak o… [+3178 chars]"
+        },
+        {
+            "source": {
+                "id": "wired",
+                "name": "Wired"
+            },
+            "author": "Lily Hay Newman",
+            "title": "Microsoft’s AI Red Team Has Already Made the Case for Itself",
+            "description": "Since 2018, a dedicated team within Microsoft has attacked machine learning systems to make them safer. But with the public release of new generative AI tools, the field is already evolving.",
+            "url": "https://www.wired.com/story/microsoft-ai-red-team/",
+            "urlToImage": "https://media.wired.com/photos/64cd85899ec11a2433532daf/191:100/w_1280,c_limit/Microsoft-AI-Red-Team-Security-GettyImages-1481843876.jpg",
+            "publishedAt": "2023-08-07T17:51:37Z",
+            "content": "For most people, the idea of using artificial intelligence tools in daily lifeor even just messing around with themhas only become mainstream in recent months, with new releases of generative AI tool… [+3117 chars]"
+        },
+        {
+            "source": {
+                "id": "the-verge",
+                "name": "The Verge"
+            },
+            "author": "Jon Porter",
+            "title": "Instagram is working on labels for AI generated content",
+            "description": "Instagram appears to be working on new notices that would disclose when AI has played a role in creating content on its platform according to a leaked interface.",
+            "url": "https://www.theverge.com/2023/8/2/23816941/instagram-generative-ai-labels-misinformation",
+            "urlToImage": "https://cdn.vox-cdn.com/thumbor/ZNdjS2Rz8PBgXsMl8AenGzZAAwY=/0x0:2040x1360/1200x628/filters:focal(1020x680:1021x681)/cdn.vox-cdn.com/uploads/chorus_asset/file/23904518/VRG_Illo_K_Radtke_STK070_Instagram_1.jpg",
+            "publishedAt": "2023-08-02T09:49:29Z",
+            "content": "Instagram is working on labels for AI generated content\r\nInstagram is working on labels for AI generated content\r\n / The in-development feature highlights when a piece of content has been created or … [+3136 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Gizmodo.com"
+            },
+            "author": "Lucas Ropek",
+            "title": "Cult of the Dead Cow Wants to Save Internet Privacy with a New Encryption Protocol",
+            "description": "The Cult of the Dead Cow, one of the most influential hacktivist groups on the web, announced plans Wednesday to launch an end-to-end encrypted protocol that can be used for app development. cDc is calling its new tool Veilid and, from the initial description…",
+            "url": "https://gizmodo.com/cult-of-the-dead-cow-launches-veilid-encryption-project-1850699803",
+            "urlToImage": "https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_1200/0416510cddeb40fef8749f63336dbd72.jpg",
+            "publishedAt": "2023-08-02T20:32:00Z",
+            "content": "The Cult of the Dead Cow, one of the most influential hacktivist groups on the web, announced plans Wednesday to launch an end-to-end encrypted protocol that can be used for app development. cDc is c… [+2930 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Gizmodo.com"
+            },
+            "author": "Nikki Main",
+            "title": "Poland's Railways Halted by a Simple Radio Hack",
+            "description": "The Polish Railway’s radio system was hacked on Friday and Saturday, bringing 20 freight and passenger trains to an unprecedented standstill. The hack, believed to be carried out by Russia, took advantage of a critical flaw in the railway’s radio security sys…",
+            "url": "https://gizmodo.com/polands-railways-halted-by-a-simple-radio-hack-1850779896",
+            "urlToImage": "https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_1200/6c46c89be5e3ac14a4f27f69f54afd96.jpg",
+            "publishedAt": "2023-08-28T14:20:00Z",
+            "content": "The Polish Railways radio system was hacked on Friday and Saturday, bringing 20 freight and passenger trains to an unprecedented standstill. The hack, believed to be carried out by Russia, took advan… [+3078 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Android Central"
+            },
+            "author": "tips@androidcentral.com (Nickolas Diaz)",
+            "title": "Google rumored to partner with Garmin for satellite-based messaging",
+            "description": "Google may partner with Garmin to bring strong emergency SOS messaging support to Android 14.",
+            "url": "https://www.androidcentral.com/apps-software/google-garmin-sos-messaging-rumor",
+            "urlToImage": "https://cdn.mos.cms.futurecdn.net/2998w5QMnSoSCZQYRfwFXJ-1200-80.jpg",
+            "publishedAt": "2023-08-28T17:41:39Z",
+            "content": "<ul><li>A dive into Google Messages' latest update unearthed a possible collaboration with Garmin Response.</li><li>A Google/Garmin partnership could mean users in over 150 countries worldwide will f… [+2803 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Android Central"
+            },
+            "author": "michael.hicks@futurenet.com (Michael L Hicks)",
+            "title": "Garmin is the official smartwatch of Space Force",
+            "description": "Military members can skip their U.S. Air Force physical fitness assessments if their Garmin watch says they're healthy.",
+            "url": "https://www.androidcentral.com/wearables/garmin-chosen-for-space-force-monitoring",
+            "urlToImage": "https://cdn.mos.cms.futurecdn.net/x7zKVk3SJzWijn57BWosFX-1200-80.jpeg",
+            "publishedAt": "2023-08-28T17:13:16Z",
+            "content": "<ul><li>Two-thirds of U.S. Space Force Guardians are wearing Garmin watches to test their physical readiness.</li><li>Wearing Garmin Forerunner 55 or Instinct 2 Solar watches will make service member… [+2861 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Android Central"
+            },
+            "author": "jerry.hildenbrand@futurenet.com (Jerry Hildenbrand)",
+            "title": "Is it safe to use your phone after it stops getting security updates?",
+            "description": "Once your phone reaches its end of life and it stops getting updates from the company that made it. should you stop using it?",
+            "url": "https://www.androidcentral.com/phones/is-it-safe-use-phone-after-stops-receiving-security-updates",
+            "urlToImage": "https://cdn.mos.cms.futurecdn.net/52GZNQyKTrDjSDKxmpjiSf-1200-80.jpg",
+            "publishedAt": "2023-08-12T16:00:10Z",
+            "content": "I write a lot about mobile security and privacy issues because I am passionate about it — you do the things you like to do any time you're able. I wish all the bad actors in the world would disappear… [+6875 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "CNET"
+            },
+            "author": "Imad Khan",
+            "title": "PS5 Slim Rumors: What We Know So Far - CNET",
+            "description": "We're starting to see rumblings of a slimmed down PlayStation 5.",
+            "url": "https://www.cnet.com/tech/ps5-slim-rumors-what-we-know-so-far/",
+            "urlToImage": "https://www.cnet.com/a/img/resize/80e1277ded954edc44bad2feb5d946fbfb2e5e22/hub/2021/03/08/b065c58c-b454-4578-b25a-46294216ed26/ps5-playstation-5-sony-hoyle-promo-7.jpg?auto=webp&fit=crop&height=675&width=1200",
+            "publishedAt": "2023-08-14T21:36:00Z",
+            "content": "PlayStation 5 Slim rumors are starting to surface now that we're already three years into the console's lifecycle, with the latest being a video on Twitter showing a condensed redesign. \r\nThe video, … [+2885 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "NPR"
+            },
+            "author": "Shannon Bond",
+            "title": "What happens when thousands of hackers try to break AI chatbots",
+            "description": "In a Jeopardy-style game at the annual Def Con hacking convention in Las Vegas, hackers tried to get chatbots from OpenAI, Google and Meta to create misinformation and share harmful content.",
+            "url": "https://www.npr.org/2023/08/15/1193773829/what-happens-when-thousands-of-hackers-try-to-break-ai-chatbots",
+            "urlToImage": "https://media.npr.org/assets/img/2023/08/14/defconai-8321_wide-2c6e203b59447a0c50f10b4d9b1149e0e3bbf5ce-s1400-c100.jpg",
+            "publishedAt": "2023-08-15T09:01:08Z",
+            "content": "Participants at the 2023 Def Con hacker convention, trying to subvert AI chatbots as part of a contest to test the systems' vulnerabilities.\r\nPaul Bloch/Paul's Vegas Photography\r\nBen Bowman is having… [+6614 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "NPR"
+            },
+            "author": "NPR Staff",
+            "title": "Latest on Ukraine: Ukraine makes some gains; China's defense minister visits Russia",
+            "description": "Catch up on key developments and the latest in-depth coverage of Russia's invasion of Ukraine.",
+            "url": "https://www.npr.org/2023/08/14/1192649899/russia-ukraine-war-news",
+            "urlToImage": "https://media.npr.org/assets/img/2023/08/14/russia_ukraine_war_23222304699290_wide-6d5ee055df7d95cc8b60e5c1a8534b7aad96363a-s1400-c100.jpg",
+            "publishedAt": "2023-08-14T16:01:38Z",
+            "content": "A woman at the scene of a building damaged after Russian missile strikes in Pokrovsk, Donetsk region, Ukraine, Aug. 9.\r\nLibkos/AP\r\nHere's a look ahead and a roundup of key developments from the past … [+4966 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Slashdot.org"
+            },
+            "author": "msmash",
+            "title": "White House Orders Federal Agencies To Shore Up Cybersecurity, Warns of Potential Exposure",
+            "description": "The White House ordered federal agencies to shore up their cybersecurity after agencies have lagged in implementing a key executive order President Joe Biden issued in 2021. From a report: Multiple federal departments and agencies have, as of the end of June,…",
+            "url": "https://news.slashdot.org/story/23/08/17/145210/white-house-orders-federal-agencies-to-shore-up-cybersecurity-warns-of-potential-exposure",
+            "urlToImage": "https://a.fsdn.com/sd/topics/security_64.png",
+            "publishedAt": "2023-08-17T20:01:00Z",
+            "content": "Multiple federal departments and agencies have, as of the end of June, \"failed to fully comply\" with critical security practices prescribed by the executive order, \"leaving the U.S. Government expose… [+932 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Slashdot.org"
+            },
+            "author": "msmash",
+            "title": "US Agency No Longer Knows Who is Visiting Potentially Dangerous Chemicals Plants",
+            "description": "An anonymous reader shares a report: When Jen Easterly, the director of the Cybersecurity and Infrastructure Security Agency, addresses the annual Chemical Security Summit in Arlington later this month, she'll be without a Big Stick she once wielded over the …",
+            "url": "https://news.slashdot.org/story/23/08/23/1817237/us-agency-no-longer-knows-who-is-visiting-potentially-dangerous-chemicals-plants",
+            "urlToImage": "https://a.fsdn.com/sd/topics/usa_64.png",
+            "publishedAt": "2023-08-23T18:17:00Z",
+            "content": "When Jen Easterly, the director of the Cybersecurity and Infrastructure Security Agency, addresses the annual Chemical Security Summit in Arlington later this month, she'll be without a Big Stick she… [+1644 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Slashdot.org"
+            },
+            "author": "msmash",
+            "title": "Pentagon Launches AI Competition To Solicit Help Securing Computer Systems",
+            "description": "DARPA, the Pentagon agency that funds moonshot technology innovations, is hosting a two-year competition for artificial intelligence experts to create new ways to bolster the world's cybersecurity. From a report: The competition launches Wednesday at the cybe…",
+            "url": "https://yro.slashdot.org/story/23/08/09/185246/pentagon-launches-ai-competition-to-solicit-help-securing-computer-systems",
+            "urlToImage": "https://a.fsdn.com/sd/topics/ai_64.png",
+            "publishedAt": "2023-08-09T20:01:00Z",
+            "content": "The competition launches Wednesday at the cybersecurity conference Black Hat in Las Vegas. It asks participants to create tools that can be used by anyone to help identify and fix holes in software t… [+913 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Slashdot.org"
+            },
+            "author": "msmash",
+            "title": "Veritas Makes a Takeover Offer for BlackBerry",
+            "description": "Private equity firm Veritas Capital has made an offer to buy Canadian software company BlackBerry, Reuters reported Friday, citing a person familiar with the matter. From the report: BlackBerry had said in May it would conduct a review of strategic alternativ…",
+            "url": "https://slashdot.org/story/23/08/25/185230/veritas-makes-a-takeover-offer-for-blackberry",
+            "urlToImage": "https://a.fsdn.com/sd/topics/blackberry_64.png",
+            "publishedAt": "2023-08-25T21:20:00Z",
+            "content": "Sign up for the Slashdot newsletter! OR check out the new Slashdot job board to browse remote jobs or jobs in your areaDo you develop on GitHub? You can keep using GitHub but automatically sync your … [+268 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Slashdot.org"
+            },
+            "author": "EditorDavid",
+            "title": "Australia's ISPs Will Stop Offering Free Email Addresses, to the Disgust of Older Customers",
+            "description": "Remember when your email address came from your ISP? \n\nNow the cost for small companies to offer email service \"has gone up in server and administration costs,\" reports the Guardian, \"without the economies of scale.\" But in Australia, this has created a probl…",
+            "url": "https://tech.slashdot.org/story/23/08/19/0419213/australias-isps-will-stop-offering-free-email-addresses-to-the-disgust-of-older-customers",
+            "urlToImage": "https://a.fsdn.com/sd/topics/australia_64.png",
+            "publishedAt": "2023-08-19T21:34:00Z",
+            "content": "Remember when your email address came from your ISP?Now the cost for small companies to offer email service \"has gone up in server and administration costs,\" reports the Guardian, \"without the econom… [+1975 chars]"
+        },
+        {
+            "source": {
+                "id": "business-insider",
+                "name": "Business Insider"
+            },
+            "author": "Sponsor Post",
+            "title": "6 reasons small businesses can feel more optimistic about cybersecurity",
+            "description": "Businesses can stay alert to cyber threats but feel reassured by broader trends in technology, talent, and other areas.",
+            "url": "https://www.businessinsider.com/sc/how-small-businesses-can-feel-more-optimistic-about-cybersecurity",
+            "urlToImage": "https://i.insider.com/64d13092f5d4870019e35126?width=1200&format=jpeg",
+            "publishedAt": "2023-08-21T16:29:18Z",
+            "content": "Getty Images/ Nitat Termmee\r\nBy Meg Anderson, vice president and chief information security officer at Principal®This story previously appeared on principal.com.Businesses can stay alert to cyber thr… [+4882 chars]"
+        },
+        {
+            "source": {
+                "id": "business-insider",
+                "name": "Business Insider"
+            },
+            "author": "Sebastian Cahill",
+            "title": "You can win $50,000 if you successfully hack a US government satellite",
+            "description": "The contest was originally dreamt up to address cybersecurity threats by allowing the US government to beef up its understanding of advanced hacking.",
+            "url": "https://www.businessinsider.com/us-government-satellite-hacking-contest-reward-military-cybersecurity-2023-8",
+            "urlToImage": "https://i.insider.com/64d71f025e5d5a00195cc542?width=1200&format=jpeg",
+            "publishedAt": "2023-08-13T00:44:49Z",
+            "content": "A satellite over the Earth's surface.Michael Dunning\r\n<ul><li>\"Hack-A-Sat\" is holding its fourth annual competition at the DEF CON conference in Las Vegas.</li><li>The contest is sponsored by the US … [+2306 chars]"
+        },
+        {
+            "source": {
+                "id": "business-insider",
+                "name": "Business Insider"
+            },
+            "author": "Polly Thompson",
+            "title": "Biden launches AI competition to tackle cybersecurity challenges — and hackers are being offered $20 million in prize money to compete",
+            "description": "President Biden has urged hackers to compete in the AI Cyber Challenge competition, which aims to strengthen the nation's key software.",
+            "url": "https://www.businessinsider.com/ai-cyber-challenge-security-biden-administration-software-2023-8",
+            "urlToImage": "https://i.insider.com/64d638c4005c4a00183df3e4?width=1200&format=jpeg",
+            "publishedAt": "2023-08-11T13:55:15Z",
+            "content": "President Joe Biden.ANDREW CABALLERO-REYNOLDS\r\n<ul><li>President Biden has called for a nationwide AI challenge to help protect critical US software.</li><li>The challenge will kick off in spring 202… [+1826 chars]"
+        },
+        {
+            "source": {
+                "id": "business-insider",
+                "name": "Business Insider"
+            },
+            "author": "Alex Bitter",
+            "title": "Some Instacart customers are losing hundreds of dollars to scammers after connecting bank accounts or Paypal to the app",
+            "description": "Instacart customers tell local news outlets that they have lost money from their bank accounts when orders don't show up",
+            "url": "https://www.businessinsider.com/instacart-customers-lose-hundreds-dollars-orders-that-never-show-up-2023-8",
+            "urlToImage": "https://i.insider.com/64e4ea92b698ac0019df52c4?width=1200&format=jpeg",
+            "publishedAt": "2023-08-22T18:53:43Z",
+            "content": "Some Instacart users are reportedly out hundreds of dollars after placing orders on the grocery delivery app that never arrived.San Francisco Chronicle/Hearst Newspapers via Getty Images\r\n<ul><li>Som… [+3103 chars]"
+        },
+        {
+            "source": {
+                "id": "business-insider",
+                "name": "Business Insider"
+            },
+            "author": "Sebastian Cahill,Katie Hawkinson",
+            "title": "Officials found suspected Chinese malware hidden in various US military systems. Its intended use is disruption rather than surveillance, a 'disturbing' change in intent, experts say.",
+            "description": "\"China is steadfast and determined to penetrate our governments, our companies, our critical infrastructure,\" the deputy director of the National Security Agency, George Barnes, said.",
+            "url": "https://www.businessinsider.com/us-officials-found-chinese-malware-hidden-in-military-systems-2023-7",
+            "urlToImage": "https://i.insider.com/64c6d277cf0778001967551e?width=1200&format=jpeg",
+            "publishedAt": "2023-07-31T19:23:55Z",
+            "content": "US Air Force airmen adjust propeller weight during pre-flight checks on an MQ-9 at Andersen Air Force Base in Guam in May 2022.US Air Force/Airman 1st class Christa Anderson\r\n<ul><li>Suspected Chines… [+2802 chars]"
+        },
+        {
+            "source": {
+                "id": "business-insider",
+                "name": "Business Insider"
+            },
+            "author": "Alexa St. John",
+            "title": "Researchers say they found a way to tap into Tesla's most advanced features — without paying for them",
+            "description": "Doctoral students say they discovered a way to tap into Tesla's FSD, rear heated seats, and other features for free.",
+            "url": "https://www.businessinsider.com/tesla-subscription-features-tap-into-for-free-researchers-found-2023-8",
+            "urlToImage": "https://i.insider.com/64cd1e318df5080019d2fa0f?width=1200&format=jpeg",
+            "publishedAt": "2023-08-05T10:50:01Z",
+            "content": "Researchers say they \"attacked\" Tesla's embedded car computer, giving them the ability to run arbitrary software on the infotainment system.Getty Images\r\n<ul>\n<li>Tesla uses in-car purchases to unloc… [+2811 chars]"
+        },
+        {
+            "source": {
+                "id": "business-insider",
+                "name": "Business Insider"
+            },
+            "author": "Huileng Tan",
+            "title": "China's tech crackdown cost over $1 trillion. But the economy is in such deep trouble that the country's cozying up to its tech firms again.",
+            "description": "Local governments in China are wooing deals with tech giants to build on the so-called \"platform economy,\" per the SCMP.",
+            "url": "https://www.businessinsider.com/china-economy-big-tech-crackdown-investment-cost-trillion-alibaba-tencent-2023-7",
+            "urlToImage": "https://i.insider.com/64c718cbcf0778001967584b?width=1200&format=jpeg",
+            "publishedAt": "2023-07-31T04:59:19Z",
+            "content": "China's cozying up to its tech firms again after a massive crackdown wiped $1.1 trillion off the valuations of major firms in the sector.Ying Tang/NurPhoto/Getty Images\r\n<ul>\n<li>China's tech crackdo… [+2691 chars]"
+        },
+        {
+            "source": {
+                "id": "business-insider",
+                "name": "Business Insider"
+            },
+            "author": "Stavros Atlamazoglou",
+            "title": "US Special Operations Command is working on a new mini-sub to carry SEALs to their targets in style",
+            "description": "SEALs in the new Dry Combat Submersible will \"arrive at the mission warm, rested, hydrated and ready,\" a Lockheed Martin official said.",
+            "url": "https://www.businessinsider.com/socom-working-on-dry-combat-submersible-to-carry-navy-seals-2023-8",
+            "urlToImage": "https://i.insider.com/64d4e25048a88f001968b1a5?width=1200&format=jpeg",
+            "publishedAt": "2023-08-10T22:07:01Z",
+            "content": "A Dry Combat Submersible leaves Lockheed's facility in Palm Beach, Florida for open-water sea trials, which were completed in March 2023.Lockheed Martin\r\n<ul>\n<li>US Special Operations Command and Lo… [+6020 chars]"
+        },
+        {
+            "source": {
+                "id": "business-insider",
+                "name": "Business Insider"
+            },
+            "author": "Stavros Atlamazoglou",
+            "title": "After nearly 60 years in flight, US Air Force special operators took their AC-130 gunship to Australia for the first time",
+            "description": "Since entering service in the late 1960s, the AC-130 has seen action all over the world, but the gunship is still covering new ground",
+            "url": "https://www.businessinsider.com/air-force-special-operations-ac130-gunship-first-time-in-australia-2023-8",
+            "urlToImage": "https://i.insider.com/64e64a85912f290019a9c98e?width=1200&format=jpeg",
+            "publishedAt": "2023-08-24T11:03:01Z",
+            "content": "Two Australian Air Force PC-21s and a US Air Force AC-130J over the Newcastle region during Exercise Teak Action in July.Australian Air Force/LAC Samuel Miller\r\n<ul>\n<li>US Air Force special operator… [+5956 chars]"
+        }
+    ]
+}

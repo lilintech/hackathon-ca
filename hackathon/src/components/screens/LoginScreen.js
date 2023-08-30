@@ -12,10 +12,7 @@ import { post } from "../../services/api";
 const LoginScreen = () => {
   const [errorData, setErrorData] = useState("");
 
- 
   const navigation = useNavigation();
-
- 
 
   // handle form submit
   const handleSubmit = async (values) => {
@@ -27,13 +24,12 @@ const LoginScreen = () => {
 
     try {
       const response = await post("api/v1/login", data);
-      
+
       // handle success
       if (response.status === 200) {
         console.log(response.data);
-        setErrorData(null)
-        navigation.navigate("Topics")
-        
+        setErrorData(null);
+        navigation.navigate("Topics");
       }
     } catch (error) {
       if (error.response) {
@@ -45,28 +41,25 @@ const LoginScreen = () => {
         } else {
           setErrorData("An error occurred");
         }
-      }
-      else{
+      } else {
         console.log("An error occured: ", error.message);
-        setErrorData("An error occurred")
+        setErrorData("An error occurred");
       }
     }
   };
 
- // handle page change
+  // handle page change
   const handlePress = () => {
     navigation.navigate("CreateAccount"); //pass name of screen
   };
 
-
   //
 
-  
   return (
     <ImageBackground style={Styles.container} source={background}>
       <View>
         <AuthLogo message="Welcome" />
-        <Text style={Styles.errorData} >{errorData}</Text>
+        <Text style={Styles.errorData}>{errorData}</Text>
         {/* formik handles on change values for the form */}
         <Formik
           initialValues={{ emailOrUsername: "", password: "" }}
@@ -101,10 +94,16 @@ const LoginScreen = () => {
               <Text style={Styles.errorMessage}>
                 {props.touched.password && props.errors.password}
               </Text>
+
               <Button onPress={props.handleSubmit} title="submit" />
             </View>
           )}
         </Formik>
+
+            <View>
+              <Text onPress={() => navigation.navigate("ForgotPassword")} style={Styles.forgot} >Forgot password?</Text>
+            </View>
+
         <View style={Styles.link}>
           <Text style={Styles.linkText} onPress={handlePress}>
             Not a Member? Register Now

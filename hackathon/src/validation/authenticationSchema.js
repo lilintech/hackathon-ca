@@ -47,3 +47,10 @@ export const reportSchema = yup.object({
     .min(3)
     .required("description cannot be empty"),
 });
+
+export const forgotSchema = yup.object({
+  email_address: yup
+    .string()
+    .required("Please enter an email")
+    .email("Email is not valid"),
+});
