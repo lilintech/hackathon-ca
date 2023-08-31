@@ -73,6 +73,7 @@ const handleChangePass = async (req, res) => {
 const handleForgotPass = (req, res) => {
   // get email from user
   const { email } = req.body;
+  console.log(email);
 
   try {
     connection.query(
@@ -82,11 +83,11 @@ const handleForgotPass = (req, res) => {
       async (error, results, fields) => {
         if (error) {
           console.log(error);
-          return res.json("an error occurred");
+          return res.status(500).json("an error occurred");
         }
         // if nothing returns
         if (results.length === 0) {
-          return res.json("No email found").status(400);
+          return res.status(400).json("No email found");
         }
         const user = results[0];
         //  generate token using jwt
@@ -156,11 +157,16 @@ const handleForgotPass = (req, res) => {
         transporter.sendMail(mailOptions, function (error, info) {
           if (error) {
             console.log(error);
+            return res
+              .status(500)
+              .json({
+                message: "We failed to send the email, please try again later",
+              });
           } else {
             console.log("Email sent: " + info.response);
+            return res.status(200).json({ message: "An email with reset link sent. Check your inbox" });
           }
         });
-        return res.json({ message: "email sent" });
       }
     );
   } catch (error) {

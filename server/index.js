@@ -50,6 +50,7 @@ connection.connect((err) => {
 app.use(create);
 app.use(login);
 app.use(changePass); //change passeord
+// todo validate inputs
 app.use(forgotPass); //forgot password
 app.use(emailLink); //on email link click
 app.use(handleRefresh);

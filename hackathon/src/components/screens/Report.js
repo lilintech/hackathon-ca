@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { View, Text } from "react-native";
-import { reportStyles } from "../../styles/Styles";
+import { forgot, reportStyles } from "../../styles/Styles";
 import { Field, Formik } from "formik";
 import { ScrollView, TextInput } from "react-native-gesture-handler";
 import { reportSchema } from "../../validation/authenticationSchema";
@@ -13,10 +13,6 @@ import {
   Button,
 } from "@ui-kitten/components";
 import * as eva from "@eva-design/eva";
-import {
-  getCategories,
-  reportIncident,
-} from "../../services/helpers/helperFunctions";
 import axios from "axios";
 import { API_URL } from "../../services/api";
 
@@ -25,6 +21,16 @@ export default function Report() {
   const [selectedCrimeId, setSelectedCrimeId] = useState(null);
   const [data, setData] = useState([]);
   const [errorData, setErrorData] = useState("");
+
+  useEffect(() => {
+    const get = async () => {
+      const response = await axios.get(`${API_URL}/api/v1/get-categories`);
+
+      console.log(response);
+      setData(response.data);
+    };
+    get();
+  }, []);
 
   // form submission
   const handleSubmit = async (values, { resetForm }) => {
@@ -47,16 +53,6 @@ export default function Report() {
       console.log(error);
     }
   };
-
-  useEffect(() => {
-    const get = () => {
-      getCategories().then((response) => {
-        // console.log(response.data);
-        setData(response.data);
-      });
-    };
-    get();
-  }, []);
 
   const handleSelect = (index) => {
     setSelectedIndex(index);
@@ -89,16 +85,16 @@ export default function Report() {
               <View>
                 <View>
                   {/* <Icon name="people-outline" {...props} /> */}
-                <TextInput
-                  style={reportStyles.commonInput}
-                  placeholder="First Name"
-                  value={props.values.first_name}
-                  onChangeText={props.handleChange("first_name")}
-                  onBlur={props.handleBlur("first_name")}
-                />
-                <Text style={reportStyles.errorMessage}>
-                  {props.touched.first_name && props.errors.first_name}
-                </Text>
+                  <TextInput
+                    style={reportStyles.commonInput}
+                    placeholder="First Name"
+                    value={props.values.first_name}
+                    onChangeText={props.handleChange("first_name")}
+                    onBlur={props.handleBlur("first_name")}
+                  />
+                  <Text style={reportStyles.errorMessage}>
+                    {props.touched.first_name && props.errors.first_name}
+                  </Text>
                 </View>
                 <TextInput
                   style={reportStyles.commonInput}
