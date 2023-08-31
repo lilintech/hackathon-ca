@@ -1,17 +1,47 @@
 import React from "react";
 import { StyleSheet, View, Text, Image } from "react-native";
-import Card from "../common/Card";
+import NewsCard from "../common/NewsCard";
+import { ScrollView } from "react-native-gesture-handler";
 
 export default function News() {
   return (
-    <Text>News screen</Text>
+    <ScrollView>
+<View style={news.container}>
+      
+      <NewsCard />
+      <NewsCard />
+      <NewsCard />
+      <NewsCard />
+      <NewsCard />
+      <NewsCard />
+      <NewsCard />
+      <NewsCard />
+      <NewsCard />
+      <NewsCard />
+      <NewsCard />
+      <NewsCard />
+      <NewsCard />
+      <NewsCard />
+      <NewsCard />
+      <NewsCard />
+      <NewsCard />
+      <NewsCard />
+      <NewsCard />
+      <NewsCard />
+      <NewsCard />
+      <NewsCard />
+   
+  </View>
+    </ScrollView>
+    
   );
 }
 
-{
-  /* <View style={{ flex: 1, alignItems: "center", justifyContent: "center" }}>
-      <Text>News Screen</Text>
-    </View> */
-}
-
-
+const news = StyleSheet.create({
+  container: {
+    flex: 1,
+    flexDirection: "row",
+    flexWrap: "wrap",
+    justifyContent: "center",
+  },
+});

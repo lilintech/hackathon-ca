@@ -14,7 +14,7 @@ const Drawer = createDrawerNavigator();
 export default function App() {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
 
-  // check if user is authenticated
+  // check if user is authenticated first
 
   return (
     <ApplicationProvider {...eva} theme={{ ...eva.light, ...theme }}>
