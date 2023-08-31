@@ -32,6 +32,9 @@ const handleUserLogin = async (req, res) => {
           return res.status(400).json({ message: "Inavlid login details" });
         }
 
+        // todo check if user email is verified
+        
+
         // create jwts
         const accessToken = jwt.sign(
           { email: user.email },
@@ -44,14 +47,6 @@ const handleUserLogin = async (req, res) => {
           process.env.REFRESH_TOKEN_SECRET,
           { expiresIn: "3d" }
         );
-
-        // // store refresh token in cookie
-        // res.cookie("jwt", refreshToken, {
-        //   httpOnly: true, //prevemts xss
-        //   sameSite: "None", //if hosted on different domain
-        //   secure: "true", //use https only
-        //   maxAge: 3 * 24 * 60 * 60 * 1000,
-        // });
 
         // send both tokens to mobile
 
