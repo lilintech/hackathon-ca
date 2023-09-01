@@ -1,5 +1,5 @@
 // imports
-const { create } = require("./routes/register");
+const { create, verify } = require("./routes/register");
 const connection = require("./db");
 
 const cors = require("cors");
@@ -48,6 +48,7 @@ connection.connect((err) => {
 // ! account stuff
 // login and create account
 app.use(create);
+app.use(verify)
 app.use(login);
 app.use(changePass); //change passeord
 // todo validate inputs

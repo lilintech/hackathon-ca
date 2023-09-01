@@ -100,7 +100,7 @@ const handleForgotPass = (req, res) => {
         );
 
         // generate link to send
-        const link = `${process.env.SERVER_URL}/api/v1/reset/${user.user_id}/${token}`;
+        const link = `${process.env.SERVER_URL}/api/v1/reset/:${user.user_id}/:${token}`;
         console.log(link);
 
         // send the link via email
